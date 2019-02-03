@@ -18,14 +18,15 @@ h1, h2, h3, h4, h5, h6, p{
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: bold;
-	padding: 10px 30px;
+	padding: 10px 40px;
 
-	transition: color 1s, border-color 1s;
+	transition: color .5s, border-color 1.5s, background .8s;
 }
 
 .btn:hover{
-	color: #fff;
-	border-color: #fff;
+	color: #95a5a6;
+	border-color: #95a5a6;
+	background: #000;
 }
 
 /* Cabeçalho */
@@ -57,7 +58,7 @@ h1, h2, h3, h4, h5, h6, p{
 	line-height: 20px;
 	padding: 10px 0;
 
-	transition: color 1s;
+	transition: color .5s;
 }
 
 .menu ul li a:hover{
@@ -79,5 +80,23 @@ h1, h2, h3, h4, h5, h6, p{
 	font-size: 24px;
 	color: #000;
 	font-weight: bold;
-	margin-bottom: 60px;
+	margin-top: 80px;
+}
+
+/* Biografia */
+.bio{
+	margin-top: 20px;
+	height: 380px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.bio h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px; 
+}
+
+.bio p{
+	margin-bottom: 40px;
 }
