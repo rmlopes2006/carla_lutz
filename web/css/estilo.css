@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family: 'Nanum Myeongjo', serif;
 }
 
+img{
+	display: block;
+}
+
 /* Botões */
 
 .btn{
@@ -20,12 +24,11 @@ h1, h2, h3, h4, h5, h6, p{
 	font-weight: bold;
 	padding: 10px 40px;
 
-	transition: color .5s, border-color 1.5s, background .8s;
+	transition: color .5s, background .8s;
 }
 
 .btn:hover{
-	color: #95a5a6;
-	border-color: #95a5a6;
+	color: #f1c40f;
 	background: #000;
 }
 
@@ -62,7 +65,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .menu ul li a:hover{
-	color: #95a5a6;
+	color: #f1c40f;
 }
 
 /* Introdução */
@@ -70,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p{
 	width: 100%;
 	background: url(../img/foto1.jpg) no-repeat center;
 	background-size: cover;
-	margin-top: 80px;
+	margin-top: 75px;
 	height: 380px;
 	text-align: center;
 	padding-top: 80px;
@@ -94,9 +97,17 @@ h1, h2, h3, h4, h5, h6, p{
 .bio h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 20px;
-	margin-bottom: 20px; 
+	margin-bottom: 40px; 
 }
 
 .bio p{
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
+
+.bio img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Galeria */
+
