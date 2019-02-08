@@ -1,6 +1,6 @@
 /*
-@autor: Rodrigo Martins
-fev 2019
+@autor: Rodrigo Martins;
+@date: Feb/2019;
 */
 
 /* Estilos gerais */
@@ -73,6 +73,7 @@ img{
 	padding: 15px;
 	z-index: 10;
 }
+
 .logo{
 	margin-top: 10px;
 }
@@ -101,6 +102,10 @@ img{
 
 .menu ul li a:hover{
 	color: #f1c40f;
+}
+
+.menu ul li a.menu-ativo{
+	color: #9b59b6; /* Menu ativo para as páginas internas. */
 }
 
 /* Introdução */
@@ -182,7 +187,7 @@ img{
 
 .encontra-aqui p{
 	color: #fff;
-	margin-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .fique-ligado{
@@ -194,11 +199,13 @@ img{
 	width: 100%;
 	height: 140px;
 	background: #f1c40f;
+	overflow: hidden;
+	padding-top: 20px;
 }
 
 .rodape ul li a{
 	color: #000;
-	padding-top: 0;
+	margin-top: 0;
 	font-weight: bold;
 	line-height: 30px;
 
@@ -208,4 +215,52 @@ img{
 .rodape ul li a:hover{
 	color: #9b59b6;
 }
+
+.logo-rodape{
+	margin-top: 20px;
+}
+
+/* bio.html */
+
+.bio-capa{
+	width: 100%;
+	background: url("../img/capa-bio.jpg") no-repeat center;
+	background-size: cover;
+	margin-top: 75px;
+	height: 280px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.bio-interna{
+	margin-bottom: 40px;
+}
+
+.bio-interna h1{
+	font-size: 32px;
+	color: #000;
+	font-weight: bold;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.bio-interna p{
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 1em;
+	color: #000;
+}
+
+.bio-interna img{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2%;
+	margin-top: 220px;
+
+	transition: opacity 1.5s ease;
+}
+
+.bio-interna img:hover{
+	opacity: 0.6;
+}
+
 
