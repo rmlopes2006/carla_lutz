@@ -200,7 +200,7 @@ img{
 	height: 140px;
 	background: #f1c40f;
 	overflow: hidden;
-	padding-top: 20px;
+	padding-top: 24px;
 }
 
 .rodape ul li a{
@@ -217,10 +217,10 @@ img{
 }
 
 .logo-rodape{
-	margin-top: 20px;
+	margin-top: 24px;
 }
 
-/* bio.html */
+/* Página bio.html */
 
 .bio-capa{
 	width: 100%;
@@ -236,10 +236,11 @@ img{
 	margin-bottom: 40px;
 }
 
-.bio-interna h1{
-	font-size: 32px;
+.bio-interna h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
 	color: #000;
-	font-weight: bold;
+	font-weight: normal;
 	margin: 40px 0;
 	text-align: center;
 }
