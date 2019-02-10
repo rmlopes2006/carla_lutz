@@ -193,6 +193,12 @@ img{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+
+	transition: opacity 1.5s ease;
+}
+
+.encontra-aqui img:hover{
+	opacity: 0.6;
 }
 
 .encontra-aqui p{
@@ -224,6 +230,13 @@ img{
 
 .rodape ul li a:hover{
 	color: #9b59b6;
+}
+
+.rodape address{
+	color: #000;
+	margin-top: 32px;
+	text-align: center;
+	font-weight: bold;
 }
 
 .logo-rodape{
