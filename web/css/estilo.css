@@ -45,12 +45,13 @@ img{
 	font-weight: bold;
 	padding: 10px 40px;
 
-	transition: color .5s, background .8s ease;
+	transition: color .5s, padding .5s, background .8s ease;
 }
 
 .btn:hover{
 	color: #f1c40f;
 	background: #000;
+	padding: 10px 45px;
 }
 
 .btn2{
@@ -63,13 +64,14 @@ img{
 	font-weight: bold;
 	padding: 10px 40px;
 
-	transition: color .5s, background .8s, border-color .8s ease;
+	transition: color .5s, padding .5s, background .8s, border-color .8s ease;
 }
 
 .btn2:hover{
 	color: #f1c40f;
 	background: #000;
 	border-color: #000;
+	padding: 10px 45px;
 }
 
 /* Cabeçalho */
