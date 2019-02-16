@@ -132,7 +132,7 @@ img{
 	text-align: center;
 	padding-top: 100px;
 
-	transition: background 2s ease;
+	transition: background 2.5s ease;
 }
 
 .intro h1{
@@ -341,7 +341,6 @@ img{
 	margin-bottom: 20px;
 }
 
-
 /* Página galeria.html */
 
 .galeria-interna{
@@ -356,6 +355,76 @@ img{
 	padding-top: 90px;
 
 	transition: background 2.5s ease;
+}
+
+.desenho{
+	width: 100%;
+	margin-top: 0;
+	height: 240px;
+	text-align: center;
+	padding-top: 60px;
+
+	transition: background 2s ease;
+}
+
+.desenho:hover{
+	background: #e74c3c;
+}
+
+.desenho h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-weight: normal;
+	line-height: 35px;
+	padding-bottom: 40px;
+}
+
+.pintura{
+	width: 100%;
+	margin-top: 0;
+	height: 240px;
+	text-align: center;
+	padding-top: 60px;
+
+	transition: background 2s ease;
+}
+
+.pintura:hover{
+	background: #9b59b6;
+}
+
+.pintura h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-weight: normal;
+	line-height: 35px;
+	padding-bottom: 40px;
+}
+
+.gravura{
+	width: 100%;
+	margin-top: 0;
+	height: 240px;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 0;
+
+	transition: background 2s ease;
+}
+
+.gravura:hover{
+	background: #3498db;
+}
+
+.gravura h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-weight: normal;
+	line-height: 35px;
+	padding-bottom: 40px;
 }
 
 /* Página contato.html */
