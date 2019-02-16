@@ -299,8 +299,8 @@ img{
 }
 
 .bio-quebra{
-	background: #000;
-	color: #fff;
+
+	color: #000;
 	width: 100%;
 	height: 180px;
 	text-align: center;
@@ -309,12 +309,31 @@ img{
 	transition: background 1s ease;
 }
 
-.bio-quebra:hover{
+.bio-quebra p{
+	padding-bottom: 10px;
+}
+
+.conheca-galeria{
+	background: #000;
+	width: 100%;
+	height: 180px;
+	text-align: center;
+
+	transition: background 1s ease;
+}
+
+.conheca-galeria:hover{
 	background: #9b59b6;
 }
 
-.bio-quebra p{
-	padding-bottom: 10px;
+
+.conheca-galeria h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 35px;
+	margin: 35px 0 40px 0;
 }
 
 
