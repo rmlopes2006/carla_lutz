@@ -131,6 +131,8 @@ img{
 	height: 380px;
 	text-align: center;
 	padding-top: 100px;
+
+	transition: background 2s ease;
 }
 
 .intro h1{
@@ -326,7 +328,6 @@ img{
 	background: #9b59b6;
 }
 
-
 .conheca-galeria h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
@@ -334,6 +335,10 @@ img{
 	font-weight: normal;
 	line-height: 35px;
 	margin: 35px 0 40px 0;
+}
+
+.conheca-galeria a{
+	margin-bottom: 20px;
 }
 
 
