@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 img{
 	display: block;
-	max-width: 100%; /* Torna as imagens fluidas e adaptáveis;
+	max-width: 100%; /* Torna as imagens fluidas e adaptáveis;*/
 }
 
 /* Classes auxiliares para imagens */
@@ -259,7 +259,7 @@ img{
 	text-align: center;
 	padding-top: 90px;
 
-	transition: background 1s ease;
+	transition: background 2s ease;
 }
 
 .bio-capa p{
@@ -315,6 +315,39 @@ img{
 
 .bio-quebra p{
 	padding-bottom: 10px;
+}
+
+
+/* Página galeria.html */
+
+.galeria-interna{
+	width: 100%;
+	background: url("../img/capa-galeria.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+	background-size: cover;
+	margin-top: 75px;
+	height: 220px;
+	text-align: center;
+	padding-top: 90px;
+
+	transition: background 2s ease;
+}
+
+/* Página contato.html */
+
+.contato-interna{
+	width: 100%;
+	background: url("../img/capa-contato.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+	background-size: cover;
+	margin-top: 75px;
+	height: 220px;
+	text-align: center;
+	padding-top: 90px;
+
+	transition: background 2s ease;
 }
 
 
