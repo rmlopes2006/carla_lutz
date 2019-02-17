@@ -344,12 +344,18 @@ img{
 
 /* Página galeria.html */
 
+/* Cores:
+https://flatuicolors.com/palette/defo
+Sun Flower: #f1c40f;
+Amethyst: #9b59b6;
+Clouds: #ecf0f1;
+*/
+
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
 	background-size: cover;
 	color: #fff;
-	background-size: cover;
 	margin-top: 75px;
 	height: 220px;
 	text-align: center;
@@ -358,19 +364,49 @@ img{
 	transition: background 2.5s ease;
 }
 
+.visite{
+	width: 100%;
+	height: 100px;
+	background: #000;
+
+	transition: background 2s ease;
+}
+
+.visite:hover{
+	background: #9b59b6;
+}
+
+.visite h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 35px;
+	text-align: center;
+	padding-top: 32px;
+}
+
 .desenho{
 	width: 50%;
 	float: left;
+	padding-left: 180px;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
 	padding-top: 60px;
 
-	transition: background 2s ease;
+	transition: background 1s ease;
 }
 
 .desenho:hover{
 	background: #ecf0f1;
+}
+
+.desenho p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-bottom: 35px;
 }
 
 .desenho h2{
@@ -379,22 +415,30 @@ img{
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 .pintura{
 	width: 50%;
 	float: right;
+	padding-right: 180px;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
 	padding-top: 60px;
 
-	transition: background 2s ease;
+	transition: background 1s ease;
 }
 
 .pintura:hover{
 	background: #ecf0f1;
+}
+
+.pintura p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-bottom: 35px;
 }
 
 .pintura h2{
@@ -403,7 +447,7 @@ img{
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 .gravura{
@@ -422,13 +466,20 @@ img{
 	background: #ecf0f1;
 }
 
+.gravura p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-bottom: 35px;
+}
+
 .gravura h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 /* Página contato.html */
