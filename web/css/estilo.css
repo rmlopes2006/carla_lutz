@@ -302,7 +302,6 @@ img{
 }
 
 .bio-quebra{
-
 	color: #000;
 	width: 100%;
 	height: 180px;
@@ -310,6 +309,10 @@ img{
 	padding-top: 70px;
 
 	transition: background 1s ease;
+}
+
+.bio-quebra:hover{
+	background: #ecf0f1;
 }
 
 .bio-quebra p{
@@ -366,7 +369,7 @@ Clouds: #ecf0f1;
 
 .visite{
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	background: #000;
 
 	transition: background 2s ease;
@@ -383,7 +386,7 @@ Clouds: #ecf0f1;
 	font-weight: normal;
 	line-height: 35px;
 	text-align: center;
-	padding-top: 32px;
+	padding-top: 22px;
 }
 
 .desenho{
@@ -393,7 +396,7 @@ Clouds: #ecf0f1;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 50px;
 
 	transition: background 1s ease;
 }
@@ -425,7 +428,7 @@ Clouds: #ecf0f1;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 50px;
 
 	transition: background 1s ease;
 }
@@ -455,7 +458,7 @@ Clouds: #ecf0f1;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 50px;
 	margin-bottom: 0;
 	overflow: auto;
 
