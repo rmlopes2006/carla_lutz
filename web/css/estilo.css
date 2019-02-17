@@ -9,6 +9,7 @@
 https://flatuicolors.com/palette/defo
 Sun Flower: #f1c40f;
 Amethyst: #9b59b6;
+Clouds: #ecf0f1;
 */
 
 body{
@@ -369,7 +370,7 @@ img{
 }
 
 .desenho:hover{
-	background: #bdc3c7;
+	background: #ecf0f1;
 }
 
 .desenho h2{
@@ -393,7 +394,7 @@ img{
 }
 
 .pintura:hover{
-	background: #bdc3c7;
+	background: #ecf0f1;
 }
 
 .pintura h2{
@@ -418,7 +419,7 @@ img{
 }
 
 .gravura:hover{
-	background: #bdc3c7;
+	background: #ecf0f1;
 }
 
 .gravura h2{
