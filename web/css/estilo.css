@@ -358,7 +358,8 @@ img{
 }
 
 .desenho{
-	width: 100%;
+	width: 50%;
+	float: left;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
@@ -368,7 +369,7 @@ img{
 }
 
 .desenho:hover{
-	background: #e74c3c;
+	background: #bdc3c7;
 }
 
 .desenho h2{
@@ -381,7 +382,8 @@ img{
 }
 
 .pintura{
-	width: 100%;
+	width: 50%;
+	float: right;
 	margin-top: 0;
 	height: 240px;
 	text-align: center;
@@ -391,7 +393,7 @@ img{
 }
 
 .pintura:hover{
-	background: #9b59b6;
+	background: #bdc3c7;
 }
 
 .pintura h2{
@@ -410,12 +412,13 @@ img{
 	text-align: center;
 	padding-top: 60px;
 	margin-bottom: 0;
+	overflow: auto;
 
 	transition: background 2s ease;
 }
 
 .gravura:hover{
-	background: #3498db;
+	background: #bdc3c7;
 }
 
 .gravura h2{
