@@ -286,6 +286,7 @@ img{
 
 .bio-interna p{
 	font-family: 'Nanum Myeongjo', serif;
+	text-align: justify;
 	font-size: 1em;
 	color: #000;
 }
