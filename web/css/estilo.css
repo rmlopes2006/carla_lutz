@@ -35,6 +35,7 @@ img{
 	margin-top: 30px;
 }
 
+
 /* Botões */
 
 .btn{
@@ -179,7 +180,7 @@ img{
 	background: #000;
 	height: 500px;
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 65px;
 
 	transition: background 1s ease;
 }
@@ -209,11 +210,11 @@ img{
 
 .encontra-aqui p{
 	color: #fff;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 
-.fique-ligado{
-	margin-top: 50px;
+.ajusta-img{
+	margin-top: 35px;
 }
 
 /* Rodapé */
@@ -501,4 +502,46 @@ Clouds: #ecf0f1;
 	transition: background 2.5s ease;
 }
 
+/* Adaptável */
 
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+	/* index.html */
+	.encontra-aqui{
+		height: 540px;
+		padding-top: 70px;
+	}
+
+	.ajusta-img{
+		margin-top: 85px;
+	}
+
+	/* bio.html */
+
+	.classe-auxiliar-imagens{
+		margin-top: 80px;
+	}
+
+	.classe-auxiliar-imagens2{
+		margin-top: 60px;
+	}
+
+	/* galeria.html */
+
+	.desenho p, .desenho h2, .desenho .btn{
+		margin-right: 100px;
+	}
+
+
+	.pintura p, .pintura h2, .pintura .btn{
+		margin-left: 100px;
+	}
+
+}
+
+/* Smartphone */
+@media only screen and (max-width: 767px){
+
+
+}
