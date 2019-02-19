@@ -133,8 +133,6 @@ img{
 	height: 380px;
 	text-align: center;
 	padding-top: 100px;
-
-	transition: background 2.5s ease;
 }
 
 .intro h1{
@@ -262,8 +260,6 @@ img{
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
-
-	transition: background 2.5s ease;
 }
 
 .bio-capa p{
@@ -365,8 +361,6 @@ Clouds: #ecf0f1;
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
-
-	transition: background 2.5s ease;
 }
 
 .visite{
@@ -499,8 +493,6 @@ Clouds: #ecf0f1;
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
-
-	transition: background 2.5s ease;
 }
 
 /* Adaptável */
