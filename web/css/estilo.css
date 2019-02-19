@@ -343,6 +343,41 @@ img{
 	margin-bottom: 20px;
 }
 
+/* Corrossel */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
 /* Página galeria.html */
 
 /* Cores:
@@ -513,11 +548,15 @@ Clouds: #ecf0f1;
 	/* bio.html */
 
 	.classe-auxiliar-imagens{
-		margin-top: 80px;
+		margin-top: 90px;
 	}
 
 	.classe-auxiliar-imagens2{
 		margin-top: 60px;
+	}
+
+	.bio-interna p{
+		margin-right: 30px;
 	}
 
 	/* galeria.html */
