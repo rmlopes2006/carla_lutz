@@ -571,6 +571,11 @@ img{
 		text-align: center;
 	}
 
+	/* bio.html */
+	.classe-auxiliar-imagens2{
+		display: none;
+	}
+
 	/*galeria.html*/
 	.pintura{
 		width: 100%;
