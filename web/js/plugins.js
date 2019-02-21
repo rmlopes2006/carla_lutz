@@ -1,7 +1,7 @@
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
-  speed: 8000,            // Integer: Speed of the transition, in milliseconds
-  timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
+  speed: 800,             // Integer: Speed of the transition, in milliseconds
+  timeout: 15000,          // Integer: Time between slide transitions, in milliseconds
   pager: false,           // Boolean: Show pager, true or false
   nav: false,             // Boolean: Show navigation, true or false
   random: false,          // Boolean: Randomize the order of the slides, true or false
@@ -16,3 +16,4 @@ $(".rslides").responsiveSlides({
   before: function(){},   // Function: Before callback
   after: function(){}     // Function: After callback
 });
+

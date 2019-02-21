@@ -26,7 +26,6 @@ img{
 }
 
 /* Classes auxiliares para imagens */
-
 .classe-auxiliar-imagens{
 	margin-top: 18px;
 }
@@ -35,9 +34,7 @@ img{
 	margin-top: 30px;
 }
 
-
 /* Botões */
-
 .btn{
 	color: #000;
 	border: 3px solid #000;
@@ -78,7 +75,6 @@ img{
 }
 
 /* Cabeçalho */
-
 .cabecalho{
 	position: fixed;
 	top: 0;
@@ -124,7 +120,6 @@ img{
 }
 
 /* Introdução */
-
 .intro{
 	width: 100%;
 	background: url("../img/foto-intro.jpg") no-repeat center;
@@ -143,7 +138,6 @@ img{
 }
 
 /* Biografia */
-
 .bio{
 	height: 380px;
 	text-align: center;
@@ -173,7 +167,6 @@ img{
 }
 
 /* Encontra aqui */
-
 .encontra-aqui{
 	background: #000;
 	height: 500px;
@@ -249,7 +242,6 @@ img{
 }
 
 /* Página bio.html */
-
 .bio-capa{
 	width: 100%;
 	background: url("../img/capa-bio.jpg") no-repeat center;
@@ -344,7 +336,6 @@ img{
 }
 
 /* Corrossel */
-
 .rslides {
   position: relative;
   list-style: none;
@@ -379,14 +370,6 @@ img{
 
 
 /* Página galeria.html */
-
-/* Cores:
-https://flatuicolors.com/palette/defo
-Sun Flower: #f1c40f;
-Amethyst: #9b59b6;
-Clouds: #ecf0f1;
-*/
-
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
@@ -517,7 +500,6 @@ Clouds: #ecf0f1;
 }
 
 /* Página contato.html */
-
 .contato-interna{
 	width: 100%;
 	background: url("../img/capa-contato.jpg") no-repeat center;
@@ -575,5 +557,6 @@ Clouds: #ecf0f1;
 /* Smartphone */
 @media only screen and (max-width: 767px){
 
+	
 
 }
