@@ -21,4 +21,25 @@ Visibility.onVisible(function(){
 	setTimeout(function(){
 		$(".intro h1").addClass("animated fadeInDown");
 	}, 400);
+	setTimeout(function(){
+		$(".bio h2").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".bio p").addClass("animated fadeInDown");
+	}, 800);
+	setTimeout(function(){
+		$(".bio a").addClass("animated fadeInDown");
+	}, 1000);
+	setTimeout(function(){
+		$(".encontra-aqui img").addClass("animated fadeInDown");
+	}, 400);
+	setTimeout(function(){
+		$(".encontra-aqui h2").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".encontra-aqui p").addClass("animated fadeInDown");
+	}, 800);
+	setTimeout(function(){
+		$(".encontra-aqui a").addClass("animated fadeInDown");
+	}, 1000);
 });

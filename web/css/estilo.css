@@ -45,7 +45,7 @@ img{
 	font-weight: bold;
 	padding: 10px 40px;
 
-	transition: color .5s, padding .5s, background .8s ease;
+	transition: color .5s, padding .5s, background .8s ease-in;
 }
 
 .btn:hover{
@@ -64,7 +64,7 @@ img{
 	font-weight: bold;
 	padding: 10px 40px;
 
-	transition: color .5s, padding .5s, background .8s, border-color .8s ease;
+	transition: color .5s, padding .5s, background .8s, border-color .8s ease-in;
 }
 
 .btn2:hover{
@@ -108,7 +108,7 @@ img{
 	line-height: 20px;
 	padding: 10px 0;
 
-	transition: color .5s ease;
+	transition: color .5s ease-in;
 }
 
 .menu ul li a:hover{
@@ -592,7 +592,7 @@ img{
 }
 
 /* Animações */
-.js .intro h1{
+.js .intro h1, .js .bio h2, .js .bio p, .js .bio a{
 	opacity: 0;
 }
 
