@@ -384,19 +384,13 @@ img{
 .visite{
 	width: 100%;
 	height: 80px;
-	background: #000;
-
-	transition: background 2s ease;
-}
-
-.visite:hover{
-	background: #9b59b6;
+	background: #fff;
 }
 
 .visite h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	font-weight: normal;
 	line-height: 35px;
 	text-align: center;
@@ -592,7 +586,11 @@ img{
 }
 
 /* Animações */
-.js .intro h1, .js .bio h2, .js .bio p, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui a, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
+.js .cabecalho,.js .intro, .js .intro h1, .js .bio h2, .js .bio p, .js .bio img, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui img, .js .encontra-aqui a,.js .bio-capa, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
+	opacity: 0;
+}
+
+.js .galeria-interna, .js .visite h2, .js .desenho, .js .pintura, .js .gravura{
 	opacity: 0;
 }
 

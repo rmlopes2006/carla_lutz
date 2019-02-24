@@ -20,6 +20,12 @@ $(".rslides").responsiveSlides({
 Visibility.onVisible(function(){
 	/* Animações Home */
 	setTimeout(function(){
+		$(".cabecalho").addClass("animated fadeInDown");
+	}, 5);
+	setTimeout(function(){
+		$(".intro").addClass("animated fadeInDown");
+	}, 250);
+	setTimeout(function(){
 		$(".intro h1").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function(){
@@ -27,6 +33,9 @@ Visibility.onVisible(function(){
 	}, 600);
 	setTimeout(function(){
 		$(".bio p").addClass("animated fadeInDown");
+	}, 800);
+	setTimeout(function(){
+		$(".bio img").addClass("animated fadeInDown");
 	}, 800);
 	setTimeout(function(){
 		$(".bio a").addClass("animated fadeInDown");
@@ -45,6 +54,9 @@ Visibility.onVisible(function(){
 	}, 1000);
 	/* Animações Bio */
 	setTimeout(function(){
+		$(".bio-capa").addClass("animated fadeInDown");
+	}, 250);
+	setTimeout(function(){
 		$(".bio-interna h2").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function(){
@@ -61,5 +73,21 @@ Visibility.onVisible(function(){
 	}, 600);
 	setTimeout(function(){
 		$(".bio-quebra blockquote").addClass("animated fadeInDown");
+	}, 800);
+	/* Animações galeria */
+	setTimeout(function(){
+		$(".galeria-interna").addClass("animated fadeInDown");
+	}, 250);
+	setTimeout(function(){
+		$(".visite h2").addClass("animated fadeInDown");
+	}, 400);
+	setTimeout(function(){
+		$(".desenho").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".pintura").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".gravura").addClass("animated fadeInDown");
 	}, 800);
 });
