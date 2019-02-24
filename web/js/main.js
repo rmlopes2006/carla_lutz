@@ -18,6 +18,7 @@ $(".rslides").responsiveSlides({
 });
 
 Visibility.onVisible(function(){
+	/* Animações Home */
 	setTimeout(function(){
 		$(".intro h1").addClass("animated fadeInDown");
 	}, 400);
@@ -42,4 +43,23 @@ Visibility.onVisible(function(){
 	setTimeout(function(){
 		$(".encontra-aqui a").addClass("animated fadeInDown");
 	}, 1000);
+	/* Animações Bio */
+	setTimeout(function(){
+		$(".bio-interna h2").addClass("animated fadeInDown");
+	}, 400);
+	setTimeout(function(){
+		$(".bio-interna p").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".bio-interna img").addClass("animated fadeInDown");
+	}, 800);
+	setTimeout(function(){
+		$(".conheca-galeria h2").addClass("animated fadeInDown");
+	}, 400);
+	setTimeout(function(){
+		$(".conheca-galeria a").addClass("animated fadeInDown");
+	}, 600);
+	setTimeout(function(){
+		$(".bio-quebra blockquote").addClass("animated fadeInDown");
+	}, 800);
 });

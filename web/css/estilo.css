@@ -592,7 +592,7 @@ img{
 }
 
 /* Animações */
-.js .intro h1, .js .bio h2, .js .bio p, .js .bio a{
+.js .intro h1, .js .bio h2, .js .bio p, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui a, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
 	opacity: 0;
 }
 
