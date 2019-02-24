@@ -27,7 +27,7 @@ img{
 
 /* Classes auxiliares para imagens */
 .classe-auxiliar-imagens{
-	margin-top: 18px;
+	margin-top: 35px;
 }
 
 .classe-auxiliar-imagens2{
@@ -275,6 +275,7 @@ img{
 .bio-interna p{
 	font-family: 'Nanum Myeongjo', serif;
 	text-align: justify;
+	padding-left: 20px;
 	font-size: 1em;
 	color: #000;
 }
@@ -297,12 +298,6 @@ img{
 	height: 180px;
 	text-align: center;
 	padding-top: 70px;
-
-	transition: background 1s ease;
-}
-
-.bio-quebra:hover{
-	background: #ecf0f1;
 }
 
 .bio-quebra p{
@@ -370,6 +365,13 @@ img{
 
 
 /* Página galeria.html */
+/* Cores:
+https://flatuicolors.com/palette/defo
+Sun Flower: #f1c40f;
+Amethyst: #9b59b6;
+Clouds: #ecf0f1;
+*/
+
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
@@ -382,9 +384,9 @@ img{
 }
 
 .visite{
+	text-align: center;
 	width: 100%;
-	height: 78px;
-	background: #fff;
+	height: 260px;
 }
 
 .visite h2{
@@ -393,104 +395,97 @@ img{
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	text-align: center;
-	padding-top: 20px;
+	padding-top: 45px;
 }
 
-.desenho{
-	width: 50%;
-	float: left;
-	padding-left: 180px;
-	margin-top: 0;
-	height: 240px;
-	text-align: center;
-	padding-top: 50px;
-
-	transition: background 1s ease;
-}
-
-.desenho:hover{
-	background: #ecf0f1;
-}
-
-.desenho p{
+.visite p{
+	text-align: justify;
 	font-family: 'Krub', sans-serif;
 	font-size: 14px;
 	color: #000;
-	padding-bottom: 35px;
+	padding: 20px 40px 35px 40px;
+}
+
+.galeria-apresenta{
+	background: #000;
+	height: 345px;
+	transition: background 2s ease;
+}
+
+.galeria-apresenta:hover{
+	background: #9b59b6;
+}
+
+.desenho{
+	text-align: center;
+	height: 100px;
 }
 
 .desenho h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #000;
+	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 85px;
+}
+
+.desenho p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 0 35px 0;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .pintura{
-	width: 50%;
-	float: right;
-	padding-right: 180px;
-	margin-top: 0;
-	height: 240px;
 	text-align: center;
-	padding-top: 50px;
-
-	transition: background 1s ease;
-}
-
-.pintura:hover{
-	background: #ecf0f1;
-}
-
-.pintura p{
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	color: #000;
-	padding-bottom: 35px;
+	height: 100px;
 }
 
 .pintura h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #000;
+	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 85px;
+}
+
+.pintura p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 0 35px 0;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .gravura{
-	width: 100%;
-	margin-top: 0;
-	height: 240px;
+	height: 100px;
 	text-align: center;
-	padding-top: 50px;
-	margin-bottom: 0;
-	overflow: auto;
-
-	transition: background 2s ease;
-}
-
-.gravura:hover{
-	background: #ecf0f1;
-}
-
-.gravura p{
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	color: #000;
-	padding-bottom: 35px;
 }
 
 .gravura h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #000;
+	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 85px;
+}
+
+.gravura p{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 0 35px 0;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 /* Página contato.html */
@@ -537,15 +532,6 @@ img{
 
 	/* galeria.html */
 
-	.desenho p, .desenho h2, .desenho .btn{
-		margin-right: 100px;
-	}
-
-
-	.pintura p, .pintura h2, .pintura .btn{
-		margin-left: 100px;
-	}
-
 }
 
 /* Smartphone */
@@ -590,7 +576,7 @@ img{
 	opacity: 0;
 }
 
-.js .galeria-interna, .js .visite h2, .js .desenho, .js .pintura, .js .gravura{
+.js .galeria-interna, .js .visite h2, .js .visite p, .js .desenho, .js .pintura, .js .gravura{
 	opacity: 0;
 }
 

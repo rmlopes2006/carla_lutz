@@ -80,7 +80,10 @@ Visibility.onVisible(function(){
 	}, 250);
 	setTimeout(function(){
 		$(".visite h2").addClass("animated fadeInDown");
-	}, 400);
+	}, 500);
+	setTimeout(function(){
+		$(".visite p").addClass("animated fadeInDown");
+	}, 500);
 	setTimeout(function(){
 		$(".desenho").addClass("animated fadeInDown");
 	}, 600);
@@ -89,5 +92,5 @@ Visibility.onVisible(function(){
 	}, 600);
 	setTimeout(function(){
 		$(".gravura").addClass("animated fadeInDown");
-	}, 800);
+	}, 600);
 });
