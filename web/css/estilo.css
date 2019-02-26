@@ -119,6 +119,20 @@ img{
 	color: #9b59b6; /* Menu ativo para as páginas internas. */
 }
 
+label{
+	display: none;
+	float: right;
+	margin-top: -35px;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	font-size: 21px;
+}
+
+#toggle{
+	display: none;
+}
+
 /* Introdução */
 .intro{
 	width: 100%;
@@ -155,15 +169,8 @@ img{
 }
 
 .bio img{
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 140px;
 	border-radius: 2%;
-
-	transition: opacity 1.5s ease;
-}
-
-.bio img:hover{
-	opacity: 0.6;
 }
 
 /* Encontra aqui */
@@ -248,7 +255,7 @@ img{
 	background-size: cover;
 	color: #fff;
 	background-size: cover;
-	margin-top: 75px;
+	margin-top: 100px;
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
@@ -377,7 +384,7 @@ Clouds: #ecf0f1;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
 	background-size: cover;
 	color: #fff;
-	margin-top: 75px;
+	margin-top: 100px;
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
@@ -495,7 +502,7 @@ Clouds: #ecf0f1;
 	background-size: cover;
 	color: #fff;
 	background-size: cover;
-	margin-top: 75px;
+	margin-top: 100px;
 	height: 220px;
 	text-align: center;
 	padding-top: 90px;
@@ -505,6 +512,16 @@ Clouds: #ecf0f1;
 
 /* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 959px){
+
+	/* Para testes APAGAR DEPOIS */
+	.visite h2{
+		color: blue;
+	}
+
+	.logo{
+		margin-top: 10px;
+		margin-left: 60px;
+	}
 
 	/* index.html */
 	.encontra-aqui{
@@ -536,6 +553,39 @@ Clouds: #ecf0f1;
 
 /* Smartphone */
 @media only screen and (max-width: 767px){
+
+	/* Para testes APAGAR DEPOIS */
+	.visite h2{
+		color: red;
+	}
+
+	/* Hamburger Menu */
+	label{
+		display: block;
+		background-color: #fff;
+		cursor: pointer;
+	}
+
+	.menu{
+		width: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		padding-top: 28px;
+		display: none;
+	}
+
+	.menu ul li{
+		display: block;
+	}
+
+	.menu ul li a{
+		border-bottom: none;
+		margin: 0;
+	}
+
+	#toggle:checked + .menu{
+		display: block;
+	}
+
 
 	/* index.html */
 	.bio img{
