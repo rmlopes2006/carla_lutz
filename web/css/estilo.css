@@ -203,12 +203,6 @@ label{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-
-	transition: opacity 1.5s ease;
-}
-
-.encontra-aqui img:hover{
-	opacity: 0.6;
 }
 
 .encontra-aqui p{
@@ -296,12 +290,6 @@ label{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 2%;
-	
-	transition: opacity 1.5s ease;
-}
-
-.bio-interna img:hover{
-	opacity: 0.6;
 }
 
 .bio-quebra{
@@ -377,12 +365,6 @@ label{
 
 
 /* Página galeria.html */
-/* Cores:
-https://flatuicolors.com/palette/defo
-Sun Flower: #f1c40f;
-Amethyst: #9b59b6;
-Clouds: #ecf0f1;
-*/
 
 .galeria-interna{
 	width: 100%;
