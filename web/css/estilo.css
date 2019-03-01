@@ -567,7 +567,7 @@ label{
 		text-align: center;
 		width: 100%;
 		background: rgba(0, 0, 0, 0.7);
-		padding: 20px 0;
+		padding: 31px 0;
 		display: none;
 	}
 
@@ -618,13 +618,20 @@ label{
 }
 
 /* Animações */
-.js .cabecalho,.js .intro, .js .intro h1, .js .bio h2, .js .bio p, .js .bio img, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui img, .js .encontra-aqui a,.js .bio-capa, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
+/* Menu - Adaptável */
+.js .menu{
 	opacity: 0;
 }
 
+/* Home */
+.js .cabecalho,.js .intro, .js .intro h1, .js .bio h2, .js .bio p, .js .bio img, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui img, .js .encontra-aqui a,.js .bio-capa, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
+	opacity: 0;
+}
+/* Galeria */
 .js .galeria-interna, .js .visite h2, .js .visite p, .js .desenho, .js .pintura, .js .gravura{
 	opacity: 0;
 }
+
 
 .animated {
   -webkit-animation-duration: 1s;

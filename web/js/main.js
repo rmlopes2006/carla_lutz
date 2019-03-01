@@ -18,6 +18,10 @@ $(".rslides").responsiveSlides({
 });
 
 Visibility.onVisible(function(){
+	/*Anima menu Smartphone */
+	setTimeout(function(){
+		$(".menu").addClass("animated fadeInDown");
+	}, 10);
 	/* Animações Home */
 	setTimeout(function(){
 		$(".cabecalho").addClass("animated fadeInDown");
