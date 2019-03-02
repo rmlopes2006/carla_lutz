@@ -516,11 +516,11 @@ label{
 	/* index.html */
 	.encontra-aqui{
 		height: 540px;
-		padding-top: 70px;
+		padding-top: 60px;
 	}
 
-	.ajusta-img{
-		margin-top: 85px;
+	.bio img{
+	margin-left: 60px;
 	}
 
 	/* bio.html */
@@ -538,6 +538,9 @@ label{
 	}
 
 	/* galeria.html */
+	.visite h2{
+		padding-top: 30px;
+	}
 
 }
 
@@ -584,12 +587,33 @@ label{
 	}
 
 	/* index.html */
+	.intro h1{
+		font-size: 24px;
+	}
+
+	.bio h2{
+		font-size: 18px;
+	}
+
+	.bio p{
+		font-size: 12px;
+	}
+
 	.bio img{
 		display: none;
 	}
 
 	.encontra-aqui{
-		height: 880px;
+		height: 780px;
+	}
+
+	.encontra-aqui h2{
+		font-size: 18px;
+		margin-top: 40px;
+	}
+
+	.encontra-aqui p{
+		font-size: 12px;
 	}
 
 	.rodape{
@@ -600,6 +624,41 @@ label{
 	/* bio.html */
 	.classe-auxiliar-imagens2{
 		display: none;
+	}
+
+	.bio-capa p{
+		padding-left: 0;
+		padding-bottom: 10px;
+	}
+
+	.bio-interna{
+		margin-bottom: 40px;
+	}
+
+	.bio-interna h2{
+		font-size: 18px;
+		line-height: 35px;
+		margin: 40px 0;
+		text-align: center;
+	}
+
+	.bio-interna p{
+		font-size: 12px;
+	}
+
+	.bio-interna img{
+		width: 80%;
+		padding-left: 20px;
+	}
+
+	.bio-quebra p{
+		font-size: 12px;
+	}
+
+	.conheca-galeria h2{
+		font-size: 18px;
+		line-height: 35px;
+		margin: 35px 0 40px 0;
 	}
 
 	/*galeria.html*/
