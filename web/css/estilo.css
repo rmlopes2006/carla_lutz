@@ -556,6 +556,10 @@ label{
 		margin-left: 40px;
 	}
 
+	.cabecalho{
+		position: absolute;
+	}
+
 	/* Hamburger Menu */
 	label{
 		display: block;
@@ -675,12 +679,11 @@ label{
 	}
 
 	.galeria-apresenta{
-		height: 650px;
+		height: 700px;
 	}
 
 	.desenho{
-		text-align: center;
-		height: 80px;
+		height: 180px;
 	}
 
 	.desenho h2{
@@ -692,11 +695,6 @@ label{
 		font-size: 14px;
 	}
 
-	.pintura{
-		text-align: center;
-		height: 80px;
-	}
-
 	.pintura h2{
 		font-size: 18px;
 		padding-top: 60px;
@@ -705,11 +703,6 @@ label{
 	.pintura p{
 		font-size: 14px;
 		margin-bottom: 20px;
-	}
-
-	.gravura{
-		height: 100px;
-		text-align: center;
 	}
 
 	.gravura h2{
