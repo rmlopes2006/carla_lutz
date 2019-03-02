@@ -206,6 +206,7 @@ label{
 }
 
 .encontra-aqui p{
+	text-align: justify;
 	color: #fff;
 	padding-bottom: 60px;
 }
@@ -281,7 +282,7 @@ label{
 .bio-interna p{
 	font-family: 'Nanum Myeongjo', serif;
 	text-align: justify;
-	padding-left: 20px;
+	padding-left: 0;
 	font-size: 1em;
 	color: #000;
 }
@@ -520,7 +521,7 @@ label{
 	}
 
 	.bio img{
-	margin-left: 60px;
+		margin-left: 60px;
 	}
 
 	/* bio.html */
@@ -534,7 +535,7 @@ label{
 	}
 
 	.bio-interna p{
-		margin-right: 30px;
+		padding-left: 0;
 	}
 
 	/* galeria.html */
@@ -667,7 +668,7 @@ label{
 
 	/*galeria.html*/
 	.visite{
-		height: 560px;
+		height: 360px;
 	}
 
 	.visite h2{
@@ -675,7 +676,8 @@ label{
 	}
 
 	.visite p{
-		font-size: 14px;
+		font-size: 12px;
+		padding: 20px 0;
 	}
 
 	.galeria-apresenta{
@@ -692,7 +694,7 @@ label{
 	}
 
 	.desenho p{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	.pintura h2{
@@ -701,7 +703,7 @@ label{
 	}
 
 	.pintura p{
-		font-size: 14px;
+		font-size: 12px;
 		margin-bottom: 20px;
 	}
 
@@ -711,7 +713,7 @@ label{
 	}
 
 	.gravura p{
-		font-size: 14px;
+		font-size: 12px;
 		margin-bottom: 20px;
 	}
 
