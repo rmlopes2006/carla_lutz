@@ -68,7 +68,7 @@ Visibility.onVisible(function(){
 	}, 600);
 	setTimeout(function(){
 		$(".bio-interna img").addClass("animated fadeInDown");
-	}, 800);
+	}, 600);
 	setTimeout(function(){
 		$(".conheca-galeria h2").addClass("animated fadeInDown");
 	}, 400);
@@ -89,12 +89,6 @@ Visibility.onVisible(function(){
 		$(".visite p").addClass("animated fadeInDown");
 	}, 500);
 	setTimeout(function(){
-		$(".desenho").addClass("animated fadeInDown");
-	}, 600);
-	setTimeout(function(){
-		$(".pintura").addClass("animated fadeInDown");
-	}, 600);
-	setTimeout(function(){
-		$(".gravura").addClass("animated fadeInDown");
+		$(".moldura").addClass("animated fadeInDown");
 	}, 600);
 });

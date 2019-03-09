@@ -9,7 +9,7 @@
 https://flatuicolors.com/palette/defo
 Sun Flower: #f1c40f;
 Amethyst: #9b59b6;
-Clouds: #ecf0f1;
+Silver: #bdc3c7;
 */
 
 body{
@@ -140,7 +140,7 @@ label{
 	display: none;
 }
 
-/* Introdução */
+/* index.html - Introdução */
 .intro{
 	width: 100%;
 	background: url("../img/foto-intro.jpg") no-repeat center;
@@ -367,6 +367,14 @@ label{
 
 
 /* Página galeria.html */
+
+/* Cores:
+https://flatuicolors.com/palette/defo
+Sun Flower: #f1c40f;
+Amethyst: #9b59b6;
+Silver: #bdc3c7;
+*/
+
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
@@ -402,87 +410,60 @@ label{
 }
 
 .galeria-apresenta{
-	background: #000;
-	height: 350px;
-	transition: background 2s ease;
+	background: #bdc3c7;
+	height: 760px;
+	transition: background 1s ease;
 }
 
 .galeria-apresenta:hover{
+	background: #f1c40f;
+}
+
+.moldura{
+	background: #000;
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin: 40px auto;
+	transition: background 1s ease;
+}
+
+.moldura:hover{
 	background: #9b59b6;
-	text-align: center;
 }
 
-.desenho{
-	text-align: center;
-	height: 100px;
-}
-
-.desenho h2{
+.moldura h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
 	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	text-align: center;
-	padding-top: 85px;
+	padding-top: 20px;
 }
 
-.desenho p{
+.moldura p{
 	font-family: 'Krub', sans-serif;
 	font-size: 14px;
 	color: #fff;
-	padding: 10px 0 35px 0;
-	text-align: center;
+	padding: 10px 0 20px 0;
 	margin-bottom: 20px;
 }
 
-.pintura{
+.entre-contato{
+	height: 200px;
 	text-align: center;
-	height: 100px;
+	background: #fff;
 }
 
-.pintura h2{
+.entre-contato h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	text-align: center;
-	padding-top: 85px;
+	padding: 40px 0;
 }
 
-.pintura p{
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	color: #fff;
-	padding: 10px 0 35px 0;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.gravura{
-	height: 100px;
-	text-align: center;
-}
-
-.gravura h2{
-	font-family: 'Krub', sans-serif;
-	font-size: 24px;
-	color: #fff;
-	font-weight: normal;
-	line-height: 35px;
-	text-align: center;
-	padding-top: 85px;
-}
-
-.gravura p{
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	color: #fff;
-	padding: 10px 0 35px 0;
-	text-align: center;
-	margin-bottom: 20px;
-}
 
 /* Página contato.html */
 .contato-interna{
@@ -672,63 +653,27 @@ label{
 	}
 
 	/*galeria.html*/
+
 	.visite{
-		height: 360px;
+		height: 550px;
 	}
 
 	.visite h2{
 		font-size: 18px;
 	}
 
-	.visite p{
-		font-size: 12px;
-		padding: 20px 0;
-	}
-
 	.galeria-apresenta{
-		height: 720px;
+		height: 760px;
 	}
 
-	.desenho{
+	.moldura{
+		width: 260px;
 		height: 190px;
 	}
 
-	.desenho h2{
+	.moldura h2{
 		font-size: 18px;
-		padding-top: 40px;
-	}
-
-	.desenho p{
-		font-size: 12px;
-	}
-
-	.pintura{
-		height: 110px;
-	}
-
-	.pintura h2{
-		font-size: 18px;
-		padding-top: 70px;
-	}
-
-	.pintura p{
-		font-size: 12px;
-		margin-bottom: 20px;
-	}
-
-	.gravura{
-		height: 180px;
-	}
-
-	.gravura h2{
-		font-size: 18px;
-		margin-top: 110px;
-	}
-
-	.gravura p{
-		font-size: 12px;
-		margin-bottom: 20px;
-	}
+	}	
 
 }
 
@@ -743,7 +688,7 @@ label{
 	opacity: 0;
 }
 /* Galeria */
-.js .galeria-interna, .js .visite h2, .js .visite p, .js .desenho, .js .pintura, .js .gravura{
+.js .galeria-interna, .js .visite h2, .js .visite p, .js .moldura{
 	opacity: 0;
 }
 
