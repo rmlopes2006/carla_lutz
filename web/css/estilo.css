@@ -413,7 +413,7 @@ label{
 
 .moldura1{
 	background: #000;
-	width: 500px;
+	width: 700px;
 	height: 200px;
 	text-align: center;
 	margin: 40px auto;
@@ -427,7 +427,7 @@ label{
 
 .moldura2{
 	background: #000;
-	width: 500px;
+	width: 700px;
 	height: 200px;
 	text-align: center;
 	margin: 40px auto;
@@ -441,7 +441,7 @@ label{
 
 .moldura3{
 	background: #000;
-	width: 500px;
+	width: 700px;
 	height: 200px;
 	text-align: center;
 	margin: 40px auto;
@@ -449,7 +449,7 @@ label{
 }
 
 .moldura3:hover{
-	background: url("../img/capa-bio.jpg") no-repeat center;
+	background: url("../img/gravura.jpg") no-repeat center;
 	/*background: #bdc3c7;*/
 }
 
@@ -471,18 +471,21 @@ label{
 }
 
 .entre-contato{
-	height: 200px;
+	width: 100%;
+	background: url("../img/quebra-contato.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+	height: 220px;
 	text-align: center;
-	background: #fff;
 }
 
 .entre-contato h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #000;
+	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	padding: 40px 0;
+	padding: 50px 0;
 }
 
 
@@ -691,7 +694,7 @@ label{
 		height: 700px;
 	}
 
-	.moldura{
+	.moldura1, .moldura2, .moldura3{
 		width: 260px;
 		height: 180px;
 	}
