@@ -368,13 +368,6 @@ label{
 
 /* Página galeria.html */
 
-/* Cores:
-https://flatuicolors.com/palette/defo
-Sun Flower: #f1c40f;
-Amethyst: #9b59b6;
-Silver: #bdc3c7;
-*/
-
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
@@ -388,7 +381,6 @@ Silver: #bdc3c7;
 
 .visite{
 	text-align: center;
-	width: 100%;
 	height: 260px;
 }
 
@@ -406,7 +398,7 @@ Silver: #bdc3c7;
 	font-family: 'Krub', sans-serif;
 	font-size: 14px;
 	color: #000;
-	padding: 20px 40px 35px 40px;
+	padding: 20px 0 35px 0;
 }
 
 .galeria-apresenta{
@@ -419,20 +411,49 @@ Silver: #bdc3c7;
 	background: #f1c40f;
 }
 
-.moldura{
+.moldura1{
 	background: #000;
 	width: 500px;
 	height: 200px;
 	text-align: center;
 	margin: 40px auto;
-	transition: background 1s ease;
+	transition: background 2.5s ease;
 }
 
-.moldura:hover{
-	background: #9b59b6;
+.moldura1:hover{
+	background: url("../img/capa-galeria.jpg") no-repeat center;
+	/*background: #bdc3c7;*/
 }
 
-.moldura h2{
+.moldura2{
+	background: #000;
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin: 40px auto;
+	transition: background 2.5s ease;
+}
+
+.moldura2:hover{
+	background: url("../img/capa-contato.jpg") no-repeat center;
+	/*background: #bdc3c7;*/
+}
+
+.moldura3{
+	background: #000;
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin: 40px auto;
+	transition: background 2.5s ease;
+}
+
+.moldura3:hover{
+	background: url("../img/capa-bio.jpg") no-repeat center;
+	/*background: #bdc3c7;*/
+}
+
+.moldura1 h2, .moldura2 h2, .moldura3 h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
 	color: #fff;
@@ -441,7 +462,7 @@ Silver: #bdc3c7;
 	padding-top: 20px;
 }
 
-.moldura p{
+.moldura1 p, .moldura2 p, .moldura3 p{
 	font-family: 'Krub', sans-serif;
 	font-size: 14px;
 	color: #fff;
@@ -655,25 +676,37 @@ Silver: #bdc3c7;
 	/*galeria.html*/
 
 	.visite{
-		height: 550px;
+		height: 360px;
 	}
 
 	.visite h2{
 		font-size: 18px;
 	}
 
+	.visite p{
+		font-size: 12px;
+	}
+
 	.galeria-apresenta{
-		height: 760px;
+		height: 700px;
 	}
 
 	.moldura{
 		width: 260px;
-		height: 190px;
+		height: 180px;
 	}
 
 	.moldura h2{
 		font-size: 18px;
-	}	
+	}
+
+	.moldura p{
+		font-size: 12px;
+	}
+
+	.entre-contato h2{
+		font-size: 18px;
+	}
 
 }
 
@@ -688,7 +721,7 @@ Silver: #bdc3c7;
 	opacity: 0;
 }
 /* Galeria */
-.js .galeria-interna, .js .visite h2, .js .visite p, .js .moldura{
+.js .galeria-interna, .js .visite h2, .js .visite p, .js .moldura1, .js .moldura2, .js .moldura3{
 	opacity: 0;
 }
 

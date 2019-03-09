@@ -89,6 +89,12 @@ Visibility.onVisible(function(){
 		$(".visite p").addClass("animated fadeInDown");
 	}, 500);
 	setTimeout(function(){
-		$(".moldura").addClass("animated fadeInDown");
+		$(".moldura1").addClass("animated fadeInDown");
 	}, 600);
+	setTimeout(function(){
+		$(".moldura2").addClass("animated fadeInDown");
+	}, 700);
+	setTimeout(function(){
+		$(".moldura3").addClass("animated fadeInDown");
+	}, 800);
 });
