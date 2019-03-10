@@ -368,6 +368,13 @@ label{
 
 /* Página galeria.html */
 
+/* Cores:
+https://flatuicolors.com/palette/defo
+Sun Flower: #f1c40f;
+Amethyst: #9b59b6;
+Silver: #bdc3c7;
+*/
+
 .galeria-interna{
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
@@ -403,21 +410,21 @@ label{
 
 .galeria-apresenta{
 	background: #bdc3c7;
-	height: 760px;
-	transition: background 1s ease;
+	height: 840px;
+	transition: background 1.2s ease;
 }
 
 .galeria-apresenta:hover{
-	background: #f1c40f;
+	background: #9b59b6;
 }
 
 .moldura1{
 	background: #000;
-	width: 700px;
+	width: 760px;
 	height: 200px;
 	text-align: center;
-	margin: 40px auto;
-	transition: background 2.5s ease;
+	margin: 60px auto;
+	transition: background 3s ease;
 }
 
 .moldura1:hover{
@@ -427,11 +434,11 @@ label{
 
 .moldura2{
 	background: #000;
-	width: 700px;
+	width: 760px;
 	height: 200px;
 	text-align: center;
-	margin: 40px auto;
-	transition: background 2.5s ease;
+	margin: 60px auto;
+	transition: background 3s ease;
 }
 
 .moldura2:hover{
@@ -441,11 +448,11 @@ label{
 
 .moldura3{
 	background: #000;
-	width: 700px;
+	width: 760px;
 	height: 200px;
 	text-align: center;
-	margin: 40px auto;
-	transition: background 2.5s ease;
+	margin: 60px auto;
+	transition: background 3s ease;
 }
 
 .moldura3:hover{
@@ -472,20 +479,20 @@ label{
 
 .entre-contato{
 	width: 100%;
-	background: url("../img/quebra-contato.jpg") no-repeat center;
-	background-size: cover;
+	background: #fff/*url("../img/quebra-contato.jpg") no-repeat center*/;
+	/*background-size: cover;*/
 	color: #fff;
-	height: 220px;
+	height: 180px;
 	text-align: center;
 }
 
 .entre-contato h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding: 50px 0;
+	padding: 35px 0;
 }
 
 
@@ -547,6 +554,11 @@ label{
 	/* galeria.html */
 	.visite h2{
 		padding-top: 30px;
+	}
+
+	.moldura1, .moldura2, .moldura3{
+		width: 600px;
+		height: 200px;
 	}
 
 }
@@ -691,12 +703,12 @@ label{
 	}
 
 	.galeria-apresenta{
-		height: 700px;
+		height: 800px;
 	}
 
 	.moldura1, .moldura2, .moldura3{
-		width: 260px;
-		height: 180px;
+		width: 300px;
+		height: 190px;
 	}
 
 	.moldura h2{
