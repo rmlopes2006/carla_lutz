@@ -29,12 +29,10 @@ img{
 /* Classes auxiliares para imagens */
 .classe-auxiliar-imagens{
 	margin-top: 15px;
-	padding-left: 40px;
 }
 
 .classe-auxiliar-imagens2{
 	margin-top: 30px;
-	padding-left: 40px;
 }
 
 /* Botões */
@@ -47,13 +45,15 @@ img{
 	letter-spacing: .1em;
 	font-weight: bold;
 	padding: 10px 40px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
-	transition: color .5s, padding .5s, background .8s ease-in;
+	transition: box-shadow 0.5s, color .5s, padding .5s, background .8s ease-in;
 }
 
 .btn:hover{
 	color: #f1c40f;
 	background: #000;
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, .6);
 	padding: 10px 45px;
 }
 
@@ -66,8 +66,9 @@ img{
 	letter-spacing: .1em;
 	font-weight: bold;
 	padding: 10px 40px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
-	transition: color .5s, padding .5s, background .8s, border-color .8s ease-in;
+	transition: box-shadow 0.5s, color .5s, padding .5s, background .8s, border-color .8s ease-in;
 }
 
 .btn2:hover{
@@ -75,6 +76,7 @@ img{
 	background: #000;
 	border-color: #000;
 	padding: 10px 45px;
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, .6);
 }
 
 /* Cabeçalho */
@@ -178,6 +180,12 @@ label{
 
 .bio img{
 	margin-left: 140px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	transition: all 1.2s;
+}
+
+.bio img:hover{
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 /* Encontra aqui */
@@ -205,6 +213,12 @@ label{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	transition: all 1.2s;
+}
+
+.encontra-aqui img:hover{
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 .encontra-aqui p{
@@ -290,8 +304,14 @@ label{
 }
 
 .bio-interna img{
-	margin-left: auto;
+	margin-left: 40px;
 	margin-right: auto;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	transition: all 1.2s;
+}
+
+.bio-interna img:hover{
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 .bio-quebra{
@@ -412,7 +432,7 @@ Silver: #bdc3c7;
 .galeria-apresenta{
 	background: #bdc3c7;
 	height: 840px;
-	transition: background 1s ease;
+	transition: background .8s ease;
 }
 
 .galeria-apresenta:hover{
@@ -429,11 +449,12 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: background 3s ease;
+	transition: box-shadow 1.2s, background 3s ease;
 }
 
 .moldura1:hover{
 	background: url("../img/capa-galeria.jpg") no-repeat center;
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 .moldura2{
@@ -446,11 +467,12 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: background 3s ease;
+	transition: box-shadow 1.2s, background 3s ease;
 }
 
 .moldura2:hover{
 	background: url("../img/capa-contato.jpg") no-repeat center;
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 .moldura3{
@@ -462,15 +484,17 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: background 3s ease;
+	transition: box-shadow 1.2s, background 3s ease;
 }
 
 .moldura3:hover{
 	background: url("../img/gravura.jpg") no-repeat center;
+	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
 .moldura1 h2, .moldura2 h2, .moldura3 h2{
 	font-family: 'Krub', sans-serif;
+	text-shadow: 1px 1px #000;
 	font-size: 24px;
 	color: #fff;
 	font-weight: normal;
@@ -480,6 +504,7 @@ Silver: #bdc3c7;
 
 .moldura1 p, .moldura2 p, .moldura3 p{
 	font-family: 'Krub', sans-serif;
+	text-shadow: 1px 1px #000;
 	font-size: 14px;
 	color: #fff;
 	padding: 10px 0 20px 0;
