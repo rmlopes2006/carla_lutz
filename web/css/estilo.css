@@ -47,7 +47,7 @@ img{
 	padding: 10px 40px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
-	transition: box-shadow 0.5s, color .5s, padding .5s, background .8s ease-in;
+	transition: box-shadow .5s, color .5s, padding .5s, background .5s ease-in;
 }
 
 .btn:hover{
@@ -68,7 +68,7 @@ img{
 	padding: 10px 40px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
-	transition: box-shadow 0.5s, color .5s, padding .5s, background .8s, border-color .8s ease-in;
+	transition: box-shadow 0.5s, color .5s, padding .5s, background .5s, border-color .5s ease-in;
 }
 
 .btn2:hover{
@@ -181,7 +181,7 @@ label{
 .bio img{
 	margin-left: 140px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	transition: all 1.2s;
+	transition: all 1.2s;	
 }
 
 .bio img:hover{
@@ -432,7 +432,7 @@ Silver: #bdc3c7;
 .galeria-apresenta{
 	background: #bdc3c7;
 	height: 840px;
-	transition: background .8s ease;
+	transition: background 1s ease;
 }
 
 .galeria-apresenta:hover{
@@ -449,7 +449,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 3s ease;
+	transition: box-shadow 1.2s, background 5s ease;
 }
 
 .moldura1:hover{
@@ -467,7 +467,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 3s ease;
+	transition: box-shadow 1.2s, background 5s ease;
 }
 
 .moldura2:hover{
@@ -528,6 +528,105 @@ Silver: #bdc3c7;
 	padding: 35px 0;
 }
 
+/* desenho.html */
+.principal-galeria{
+	background: #fff;
+	width: 100%;
+	height: 740px;
+	margin-top: 100px;
+}
+
+/* Código para slideshow da w3 */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-galeria {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 60px;
+  height: 700px;
+  width: 700px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+/*.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 5px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
 /* Página contato.html */
 .contato-interna{
