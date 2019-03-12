@@ -91,14 +91,21 @@ Visibility.onVisible(function(){
 		$(".visite p").addClass("animated fadeInDown");
 	}, 500);
 	setTimeout(function(){
-		$(".moldura1").addClass("animated fadeInDown");
+		$(".galeria-apresenta").addClass("animated fadeInDown");
 	}, 600);
 	setTimeout(function(){
-		$(".moldura2").addClass("animated fadeInDown");
+		$(".entre-contato").addClass("animated fadeInDown");
 	}, 700);
+	/* Galerias internas */
 	setTimeout(function(){
-		$(".moldura3").addClass("animated fadeInDown");
-	}, 800);
+		$(".apresentacao-galerias").addClass("animated fadeInDown");
+	}, 250);
+	setTimeout(function(){
+		$(".principal-galeria").addClass("animated fadeInDown");
+	}, 500);
+	setTimeout(function(){
+		$(".outras-galerias").addClass("animated fadeInDown");
+	}, 600);
 });
 
 /* Slideshow galerias */
