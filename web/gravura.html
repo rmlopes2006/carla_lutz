@@ -3,35 +3,106 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Carla Lutz - Contato</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Carla Lutz - Gravuras</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/estilo.css">
-
 		<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+		<script src="js/libs/modernizr.custom.45655.js"></script>
 	</head>
 
 	<body>
 
 		<header class="cabecalho">
-			<div class="container">
-				<a href="index.html" class="grid-4">
-					<img src="img/logo.png" class="logo" alt="Carla Lutz">
-				</a>
-				<nav class="grid-12 menu">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="bio.html">Bio</a></li>
-						<li><a href="galeria.html" class="menu-ativo">Galeria</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
+			<a href="index.html">
+				<img src="img/logo.png" class="logo" alt="Carla Lutz">
+			</a>
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="bio.html">Bio</a></li>
+					<li><a href="galeria.html">Galeria</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
 		</header>
 
-		<section></section>		
+		<section class="apresentacao-desenho">
+			
+			<div class="container">
+				
+				<h2>Gravura</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in enim vel elit eleifend mattis sit amet vitae massa. Vivamus placerat elit quis urna iaculis, non imperdiet orci suscipit. Curabitur sed consectetur nibh. Morbi placerat lorem ut tempor rhoncus. Nulla facilisi. Ut sodales neque quis libero auctor, vel fermentum nisl accumsan. Curabitur a purus rutrum, porta nunc vel, semper lacus. Ut ac varius magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+			</div>
+
+		</section>
+
+		<section class="principal-galeria">
+
+			<!-- Container for the image gallery -->
+			<div class="container-galeria">
+
+			  <!-- Full-width images with number text -->
+			  <div class="mySlides">
+			    <img src="img/desenhos/desenho1.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+			    <img src="img/desenhos/desenho2.jpg" style="width:100%">
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			  <!-- Image text -->
+			  <div class="caption-container">
+			    <p id="caption"></p>
+			  </div>
+
+			  <!-- Thumbnail images -->
+			  <div class="row">
+			    <div class="column">
+			      <img class="demo cursor" src="img/desenhos/desenho1.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="img/desenhos/desenho2.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+			    </div>
+			    
+			  </div>
+			</div>
+
+		</section>
+
+		<section class="outras-galerias">
+			
+			<div class="container">
+
+				<div class="grid-8 visite-gravura">
+					
+					<h2>Desenho</h2>
+					<p>Visite agora a galeria de desenhos.</p>
+					<a href="desenho.html" class="btn">Visite</a>
+
+				</div>
+			
+				<div class="grid-8 visite-pintura">
+					
+					<h2>Pintura</h2>
+					<p>Visite agora a galeria de pinturas.</p>
+					<a href="pintura.html" class="btn">Visite</a>
+
+				</div>
+
+			</div>
+
+		</section>
 
 		<footer class="rodape">
 			<div class="container">
@@ -42,7 +113,7 @@
 
 				<div class="grid-6">
 					<ul>
-						<li><a href="www.facebook.com/carlalutzartista">Facebook</a></li>
+						<li><a href="">Facebook</a></li>
 						<li><a href="">Twitter</a></li>
 						<li><a href="">Instagram</a></li>
 					</ul>
