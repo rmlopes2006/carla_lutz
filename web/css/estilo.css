@@ -242,8 +242,11 @@ label{
 
 .rodape ul li a{
 	color: #000;
-	margin-top: 0;
 	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .07em;
+	font-size: 14px;
+	margin-top: 0;
 	line-height: 30px;
 
 	transition: color .5s ease;
@@ -255,6 +258,7 @@ label{
 
 .rodape address{
 	color: #000;
+	font-size: 14px;
 	margin-top: 32px;
 	text-align: center;
 	font-weight: bold;
@@ -449,7 +453,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 7s ease;
+	transition: box-shadow 1.2s, background 5s ease;
 }
 
 .moldura1:hover{
@@ -467,7 +471,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 7s ease;
+	transition: box-shadow 1.2s, background 5s ease;
 }
 
 .moldura2:hover{
@@ -484,7 +488,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 5s ease;
+	transition: box-shadow 1.2s, background 3s ease;
 }
 
 .moldura3:hover{
@@ -513,8 +517,7 @@ Silver: #bdc3c7;
 
 .entre-contato{
 	width: 100%;
-	background: #fff/*url("../img/quebra-contato.jpg") no-repeat center*/;
-	/*background-size: cover;*/
+	background: #fff;
 	height: 180px;
 	text-align: center;
 }
@@ -959,3 +962,4 @@ Silver: #bdc3c7;
   animation-name: fadeInDown;
 }
 
+/* Fim das animações */
