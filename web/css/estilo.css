@@ -449,7 +449,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 8s ease;
+	transition: box-shadow 1.2s, background 7s ease;
 }
 
 .moldura1:hover{
@@ -467,7 +467,7 @@ Silver: #bdc3c7;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 8s ease;
+	transition: box-shadow 1.2s, background 7s ease;
 }
 
 .moldura2:hover{
@@ -540,7 +540,6 @@ Silver: #bdc3c7;
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
 	color: #000;
-	font-weight: bold;
 }
 
 .apresentacao-desenho p{
@@ -642,6 +641,32 @@ Silver: #bdc3c7;
 .active,
 .demo:hover {
   opacity: 1;
+}
+/* Fim do código da Slide show da w3 */
+
+.outras-galerias{
+	width: 100%;
+	height: 230px;
+	text-align: center;
+}
+
+.outras-galerias h2{
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 35px;
+	color: #000;
+}
+
+.outras-galerias p{
+	font-family: 'Nanum Myeongjo', serif;
+	padding-top: 15px;
+	padding-bottom: 40px;	
+	text-align: center;
+}
+
+.visite-pintura a{
+	text-align: center;
 }
 
 /* Página contato.html */
