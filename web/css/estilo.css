@@ -563,6 +563,32 @@ Silver: #bdc3c7;
 	background: #9b59b6;
 }
 
+/* overlay w3 */
+.auxiliar-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: 1s ease;
+  opacity:0;
+  color: #fff;
+  font-family: 'Krub', sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.auxiliar-overlay:hover .overlay {
+  opacity: 1;
+}
+
 /* Código para slideshow da w3 */
 * {
   box-sizing: border-box;
