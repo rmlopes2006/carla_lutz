@@ -109,6 +109,10 @@ Visibility.onVisible(function(){
 	setTimeout(function(){
 		$(".outras-galerias").addClass("animated fadeInDown");
 	}, 600);
+	/* Contato */
+	setTimeout(function(){
+		$(".contato-interna").addClass("animated fadeInDown");
+	}, 250);
 });
 
 /* Slideshow galerias */

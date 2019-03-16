@@ -254,13 +254,19 @@ label{
 .rodape address{
 	color: #000;
 	font-size: 14px;
-	margin-top: 32px;
+	margin-top: 35px;
 	text-align: center;
 	font-weight: bold;
 }
 
-.logo-rodape{
-	margin-top: 24px;
+.autoria{
+	width: 100%;
+	height: 30px;
+	background: #000;
+	color: #bdc3c7;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 6px;
 }
 
 /* Página bio.html */
@@ -418,7 +424,7 @@ Silver: #bdc3c7;
 }
 
 .quebra-auxiliar{
-	height: 15px;
+	height: 5px;
 	background: #000;
 }
 
@@ -956,6 +962,11 @@ Silver: #bdc3c7;
 
 /* Galerias internas */
 .js .apresentacao-galerias, .js .principal-galeria, .js .outras-galerias{
+	opacity: 0;
+}
+
+/* Contato */
+.js .contato-interna{
 	opacity: 0;
 }
 
