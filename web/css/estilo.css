@@ -417,9 +417,14 @@ Silver: #bdc3c7;
 	padding-top: 90px;
 }
 
+.quebra-auxiliar{
+	height: 15px;
+	background: #000;
+}
+
 .visite{
 	text-align: center;
-	height: 330px;
+	height: 310px;
 }
 
 .visite h2{
@@ -464,7 +469,7 @@ Silver: #bdc3c7;
 }
 
 .moldura1:hover{
-	background: url("../img/capa-galeria.jpg") no-repeat center;
+	background: url("../img/capa-bio.jpg") no-repeat center;
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
@@ -945,7 +950,7 @@ Silver: #bdc3c7;
 	opacity: 0;
 }
 /* Galeria */
-.js .galeria-interna, .js .visite h2, .js .visite p, .js .galeria-apresenta, .js .entre-contato{
+.js .galeria-interna,.js .quebra-auxiliar, .js .visite h2, .js .visite p, .js .galeria-apresenta, .js .entre-contato{
 	opacity: 0;
 }
 

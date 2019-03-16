@@ -85,6 +85,9 @@ Visibility.onVisible(function(){
 		$(".galeria-interna").addClass("animated fadeInDown");
 	}, 250);
 	setTimeout(function(){
+		$(".quebra-auxiliar").addClass("animated fadeInDown");
+	}, 500);
+	setTimeout(function(){
 		$(".visite h2").addClass("animated fadeInDown");
 	}, 500);
 	setTimeout(function(){
