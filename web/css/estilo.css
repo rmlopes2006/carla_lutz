@@ -145,27 +145,31 @@ label{
 	margin-top: 75px;
 	height: 380px;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 85px;
+}
+
+.intro img{
+	margin: 0 auto;
 }
 
 .intro h1{
-	font-size: 32px;
-	color: #000;
+	font-family: 'Krub', sans-serif;
 	font-weight: bold;
-	margin-top: 80px;
+	font-size: 28px;
+	margin-top: 25px;
 }
 
 /* Biografia */
 .bio{
-	height: 400px;
+	height: 370px;
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 .bio h2{
 	font-family: 'Krub', sans-serif;
 	font-size: 24px;
-	margin-bottom: 20px; 
+	margin-bottom: 40px; 
 }
 
 .bio p{
@@ -176,6 +180,7 @@ label{
 }
 
 .bio img{
+	margin-top: 10px;
 	margin-left: 140px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	transition: all 1.2s;	
@@ -188,7 +193,7 @@ label{
 /* Encontra aqui */
 .encontra-aqui{
 	background: #000;
-	height: 580px;
+	height: 570px;
 	text-align: center;
 	padding-top: 65px;
 
@@ -455,7 +460,7 @@ Silver: #bdc3c7;
 }
 
 .galeria-apresenta:hover{
-	background: #f1c40f;
+	background: #9b59b6;
 }
 
 .moldura1{
