@@ -32,6 +32,9 @@ Visibility.onVisible(function(){
 		$(".intro").addClass("animated fadeInDown");
 	}, 250);
 	setTimeout(function(){
+		$(".intro img").addClass("animated fadeInDown");
+	}, 380);
+	setTimeout(function(){
 		$(".intro h1").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function(){
