@@ -155,7 +155,7 @@ label{
 .intro h1{
 	font-family: 'Krub', sans-serif;
 	font-weight: bold;
-	letter-spacing: .07em;
+	letter-spacing: .05em;
 	font-size: 28px;
 	margin-top: 25px;
 }
@@ -330,14 +330,6 @@ label{
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
-.classe-auxiliar-imagens{
-	margin-top: 140px;
-}
-
-.classe-auxiliar-imagens2{
-	margin-top: 30px;
-}
-
 .bio-quebra{
 	color: #000;
 	width: 100%;
@@ -435,7 +427,7 @@ Silver: #bdc3c7;
 
 .visite{
 	text-align: center;
-	height: 330px;
+	height: 340px;
 }
 
 .visite h2{
