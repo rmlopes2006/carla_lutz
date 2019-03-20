@@ -155,6 +155,7 @@ label{
 .intro h1{
 	font-family: 'Krub', sans-serif;
 	font-weight: bold;
+	letter-spacing: .07em;
 	font-size: 28px;
 	margin-top: 25px;
 }
@@ -193,9 +194,9 @@ label{
 /* Encontra aqui */
 .encontra-aqui{
 	background: #000;
-	height: 570px;
+	height: 560px;
 	text-align: center;
-	padding-top: 65px;
+	padding-top: 60px;
 
 	transition: background 1s ease;
 }
@@ -305,13 +306,14 @@ label{
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	margin: 40px 0;
+	margin: 60px 0 40px 0;
 	text-align: center;
 }
 
 .bio-interna p{
 	text-align: justify;
 	padding-left: 0;
+	padding-bottom: 20px;
 	font-size: 18px;
 	line-height: 25px;
 	color: #000;
@@ -341,7 +343,7 @@ label{
 	width: 100%;
 	height: 180px;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 60px;
 }
 
 .bio-quebra p{
@@ -354,7 +356,7 @@ label{
 	margin-top: 60px;
 	background: #000;
 	width: 100%;
-	height: 180px;
+	height: 230px;
 	text-align: center;
 
 	transition: background 1s ease;
@@ -370,7 +372,7 @@ label{
 	color: #fff;
 	font-weight: normal;
 	line-height: 35px;
-	margin: 35px 0 40px 0;
+	margin: 60px 0 40px 0;
 }
 
 .conheca-galeria a{
@@ -433,7 +435,7 @@ Silver: #bdc3c7;
 
 .visite{
 	text-align: center;
-	height: 310px;
+	height: 330px;
 }
 
 .visite h2{
@@ -442,7 +444,7 @@ Silver: #bdc3c7;
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding-top: 45px;
+	padding-top: 60px;
 }
 
 .visite p{
@@ -455,7 +457,7 @@ Silver: #bdc3c7;
 
 .galeria-apresenta{
 	background: #bdc3c7;
-	height: 840px;
+	height: 900px;
 	transition: background 1s ease;
 }
 
@@ -472,7 +474,7 @@ Silver: #bdc3c7;
 	width: 800px;
 	height: 200px;
 	text-align: center;
-	margin: 60px auto;
+	margin: 80px auto;
 	transition: box-shadow 1.2s, background 3s ease;
 }
 
@@ -537,7 +539,7 @@ Silver: #bdc3c7;
 .entre-contato{
 	width: 100%;
 	background: #fff;
-	height: 180px;
+	height: 240px;
 	text-align: center;
 }
 
@@ -547,7 +549,7 @@ Silver: #bdc3c7;
 	color: #000;
 	font-weight: normal;
 	line-height: 35px;
-	padding: 35px 0;
+	padding: 60px 0 40px 0;
 }
 
 /* desenho.html */
