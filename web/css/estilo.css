@@ -33,7 +33,7 @@ img{
 .subtitulo:after {
 	content: "";
 	display: block;
-	width: 60px;
+	width: 50px;
 	height: 2px;
 	background: #000;
 	margin: 10px auto;
@@ -42,7 +42,7 @@ img{
 .subtitulo2:after {
 	content: "";
 	display: block;
-	width: 60px;
+	width: 50px;
 	height: 2px;
 	background: #fff;
 	margin: 10px auto;
@@ -472,7 +472,7 @@ Silver: #bdc3c7;
 
 .galeria-apresenta{
 	background: #bdc3c7;
-	height: 900px;
+	height: 870px;
 	transition: background 1s ease;
 }
 
@@ -489,7 +489,7 @@ Silver: #bdc3c7;
 	width: 800px;
 	height: 200px;
 	text-align: center;
-	margin: 80px auto;
+	margin: 70px auto;
 	transition: box-shadow 1.2s, background 3s ease;
 }
 
