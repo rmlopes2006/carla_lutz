@@ -488,16 +488,17 @@ Silver: #bdc3c7;
 	-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
 	-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	width: 800px;
+	width: 820px;
 	height: 200px;
 	text-align: center;
 	margin: 70px auto;
-	transition: box-shadow 1.2s, background 3s ease;
+	transition: width 1.2s, box-shadow 1.2s, background 3s ease;
 }
 
 .moldura1:hover{
 	background: url("../img/capa-bio.jpg") no-repeat center;
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
+	width: 850px;
 }
 
 .moldura2{
@@ -506,16 +507,17 @@ Silver: #bdc3c7;
 	-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
 	-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	width: 800px;
+	width: 820px;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 3s ease;
+	transition: width 1s, box-shadow 1.2s, background 3s ease;
 }
 
 .moldura2:hover{
 	background: url("../img/capa-contato.jpg") no-repeat center;
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
+	width: 850px;
 }
 
 .moldura3{
@@ -523,16 +525,18 @@ Silver: #bdc3c7;
 	background: #000;
 	-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
 	-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);	width: 800px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);	
+	width: 820px;
 	height: 200px;
 	text-align: center;
 	margin: 60px auto;
-	transition: box-shadow 1.2s, background 2s ease;
+	transition: width 1s, box-shadow 1.2s, background 2s ease;
 }
 
 .moldura3:hover{
 	background: url("../img/gravura.jpg") no-repeat center;
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
+	width: 850px;
 }
 
 .moldura1 h2, .moldura2 h2, .moldura3 h2{
