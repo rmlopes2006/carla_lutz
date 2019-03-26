@@ -253,7 +253,7 @@ label{
 }
 
 .ajusta-img{
-	margin-top: 90px;
+	margin-top: 70px;
 }
 
 /* Rodapé */
@@ -341,8 +341,10 @@ label{
 }
 
 .bio-interna img{
-	margin-left: 40px;
+	margin-top: 120px;
 	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: 40px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	transition: all 1.2s;
 }
