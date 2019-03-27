@@ -2,7 +2,7 @@
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 800,             // Integer: Speed of the transition, in milliseconds
-  timeout: 15000,          // Integer: Time between slide transitions, in milliseconds
+  timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
   pager: false,           // Boolean: Show pager, true or false
   nav: false,             // Boolean: Show navigation, true or false
   random: false,          // Boolean: Randomize the order of the slides, true or false
@@ -82,7 +82,7 @@ Visibility.onVisible(function(){
 	}, 600);
 	setTimeout(function(){
 		$(".bio-quebra blockquote").addClass("animated fadeInDown");
-	}, 800);
+	}, 800);/*Também está na index*/
 	/* Animações galeria */
 	setTimeout(function(){
 		$(".galeria-interna").addClass("animated fadeInDown");

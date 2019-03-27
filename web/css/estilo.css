@@ -342,7 +342,7 @@ label{
 }
 
 .bio-interna img{
-	margin-top: 120px;
+	margin-top: 45px;
 	margin-right: auto;
 	margin-bottom: 40px;
 	margin-left: 40px;
@@ -355,7 +355,10 @@ label{
 }
 
 .bio-quebra{
-	color: #000;
+	background: url("../img/quebra.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+	text-shadow: 1px 1px #000;
 	width: 100%;
 	height: 180px;
 	text-align: center;
@@ -977,7 +980,7 @@ Silver: #bdc3c7;
 	opacity: 0;
 }
 
-/* Home */
+/* Home & Bio */
 .js .cabecalho,.js .intro,.js .intro img, .js .intro h1, .js .bio h2, .js .bio p, .js .bio img, .js .bio a, .js .encontra-aqui h2, .js .encontra-aqui p, .js .encontra-aqui img, .js .encontra-aqui a,.js .bio-capa, .js .bio-interna h2, .js .bio-interna p, .js .bio-interna img, .js .conheca-galeria h2, .js .conheca-galeria a, .js .bio-quebra blockquote{
 	opacity: 0;
 }
