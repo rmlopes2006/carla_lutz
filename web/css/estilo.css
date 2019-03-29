@@ -33,7 +33,7 @@ img{
 .subtitulo:after {
 	content: "";
 	display: block;
-	width: 50px;
+	width: 70px;
 	height: 2px;
 	background: #000;
 	margin: 8px auto;
@@ -42,7 +42,7 @@ img{
 .subtitulo2:after {
 	content: "";
 	display: block;
-	width: 50px;
+	width: 70px;
 	height: 2px;
 	background: #fff;
 	margin: 8px auto;
