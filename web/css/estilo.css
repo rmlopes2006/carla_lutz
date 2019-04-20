@@ -201,7 +201,7 @@ label{
 }
 
 .bio img{
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-left: 140px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	transition: all 1.2s;	
@@ -867,7 +867,12 @@ Silver: #bdc3c7;
 
 	/* index.html */
 	.intro{
-	height: 400px;
+		height: 360px;
+	}
+
+	.intro img{
+		margin: 0 auto;
+		width: 30%;
 	}
 
 	.intro h1{
