@@ -201,7 +201,7 @@ label{
 }
 
 .bio img{
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-left: 140px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	transition: all 1.2s;	
@@ -772,7 +772,7 @@ Silver: #bdc3c7;
 
 	/* index.html */
 	.encontra-aqui{
-		height: 660px;
+		height: 670px;
 	}
 
 	.encontra-aqui img{
@@ -789,18 +789,15 @@ Silver: #bdc3c7;
 	}
 
 	.bio img{
+		margin-top: 25px;
 		margin-left: 60px;
 	}
 
 
 	/* bio.html */
 
-	.classe-auxiliar-imagens{
-		margin-top: 90px;
-	}
-
-	.classe-auxiliar-imagens2{
-		margin-top: 60px;
+	.bio-interna img{
+		margin-top: 100px;
 	}
 
 	.bio-interna p{
@@ -919,10 +916,6 @@ Silver: #bdc3c7;
 	}
 
 	/* bio.html */
-	.classe-auxiliar-imagens2{
-		display: none;
-	}
-
 	.bio-capa p{
 		padding-left: 0;
 		padding-bottom: 10px;
@@ -944,8 +937,7 @@ Silver: #bdc3c7;
 	}
 
 	.bio-interna img{
-		width: 80%;
-		padding-left: 20px;
+		display: none;
 	}
 
 	.bio-quebra p{
