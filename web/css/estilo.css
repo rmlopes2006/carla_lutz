@@ -253,10 +253,6 @@ label{
 	padding-bottom: 60px;
 }
 
-.ajusta-img{
-	margin-top: 70px;
-}
-
 /* Rodapé */
 .rodape{
 	width: 100%;
@@ -778,8 +774,9 @@ Silver: #bdc3c7;
 		height: 660px;
 	}
 
-	.ajusta-img{
-		margin-top: 450px;
+	.encontra-aqui img{
+		width: 50%;
+		margin-top: 150px;
 	}
 
 	.bio{
@@ -887,7 +884,7 @@ Silver: #bdc3c7;
 	}
 
 	.encontra-aqui{
-		height: 740px;
+		height: 960px;
 	}
 
 	.encontra-aqui h2{
@@ -900,7 +897,8 @@ Silver: #bdc3c7;
 	}
 
 	.encontra-aqui img{
-		display: none;
+		width: 50%;
+		margin-top: 20px;
 	}
 
 	.rodape{
