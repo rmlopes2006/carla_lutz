@@ -139,6 +139,7 @@ img{
 
 .menu ul li a.menu-ativo{
 	color: #9b59b6; /* Menu ativo para as páginas internas. */
+	font-style: italic;
 }
 
 label{
