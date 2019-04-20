@@ -492,7 +492,8 @@ Silver: #bdc3c7;
 	width: 820px;
 	height: 200px;
 	text-align: center;
-	margin: 70px auto;
+	margin-top: 70px;
+	margin-left: 70px;
 	transition: box-shadow 1.2s, background 3s ease;
 }
 
@@ -510,7 +511,8 @@ Silver: #bdc3c7;
 	width: 820px;
 	height: 200px;
 	text-align: center;
-	margin: 60px auto;
+	margin-top: 60px;
+	margin-left: 70px;
 	transition: box-shadow 1.2s, background 3s ease;
 }
 
@@ -528,7 +530,8 @@ Silver: #bdc3c7;
 	width: 820px;
 	height: 200px;
 	text-align: center;
-	margin: 60px auto;
+	margin-top: 60px;
+	margin-left: 70px;
 	transition: box-shadow 1.2s, background 2s ease;
 }
 
@@ -957,7 +960,7 @@ Silver: #bdc3c7;
 	/*galeria.html*/
 
 	.visite{
-		height: 360px;
+		height: 590px;
 	}
 
 	.visite h2{
@@ -965,24 +968,41 @@ Silver: #bdc3c7;
 	}
 
 	.visite p{
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	.galeria-apresenta{
-		height: 800px;
+		height: 880px;
 	}
 
-	.moldura1, .moldura2, .moldura3{
+	.moldura1{
 		width: 300px;
-		height: 190px;
+		height: 200px;
+		margin-top: 70px;
+		margin-left: 0px;
 	}
 
-	.moldura h2{
+	.moldura2{
+		width: 300px;
+		height: 200px;
+		margin-top: 70px;
+		margin-left: 0px;
+	}
+
+	.moldura3{
+		width: 300px;
+		height: 200px;
+		margin-top: 70px;
+		margin-left: 0px;
+	}
+
+
+	.moldura1 h2, .moldura2 h2, .moldura3 h2{
 		font-size: 18px;
 	}
 
-	.moldura p{
-		font-size: 12px;
+	.moldura1 p, .moldura2 p, .moldura3 p{
+		font-size: 16px;
 	}
 
 	.entre-contato h2{
