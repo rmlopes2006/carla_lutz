@@ -775,13 +775,23 @@ Silver: #bdc3c7;
 
 	/* index.html */
 	.encontra-aqui{
-		height: 540px;
+		height: 660px;
+	}
+
+	.ajusta-img{
+		margin-top: 450px;
+	}
+
+	.bio{
+		height: 400px;
+		text-align: center;
 		padding-top: 60px;
 	}
 
 	.bio img{
 		margin-left: 60px;
 	}
+
 
 	/* bio.html */
 
@@ -860,12 +870,16 @@ Silver: #bdc3c7;
 		font-size: 24px;
 	}
 
+	.bio{
+		height: 400px;
+	}
+
 	.bio h2{
 		font-size: 18px;
 	}
 
 	.bio p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.bio img{
@@ -873,7 +887,7 @@ Silver: #bdc3c7;
 	}
 
 	.encontra-aqui{
-		height: 840px;
+		height: 740px;
 	}
 
 	.encontra-aqui h2{
@@ -882,7 +896,11 @@ Silver: #bdc3c7;
 	}
 
 	.encontra-aqui p{
-		font-size: 14px;
+		font-size: 16px;
+	}
+
+	.encontra-aqui img{
+		display: none;
 	}
 
 	.rodape{
@@ -912,7 +930,7 @@ Silver: #bdc3c7;
 	}
 
 	.bio-interna p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.bio-interna img{
@@ -921,7 +939,7 @@ Silver: #bdc3c7;
 	}
 
 	.bio-quebra p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.conheca-galeria{
