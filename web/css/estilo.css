@@ -214,6 +214,7 @@ label{
 /* Encontra aqui */
 .encontra-aqui{
 	border-top: 5px solid #f1c40f;
+	border-bottom: 5px solid #f1c40f;
 	background: #000;
 	height: 575px;
 	text-align: center;
@@ -478,6 +479,8 @@ Silver: #bdc3c7;
 
 .galeria-apresenta{
 	background: #bdc3c7;
+	border-top: 5px solid #f1c40f;
+	border-bottom: 5px solid #f1c40f;
 	height: 870px;
 	transition: background 1s ease;
 }
