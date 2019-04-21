@@ -213,6 +213,7 @@ label{
 
 /* Encontra aqui */
 .encontra-aqui{
+	border-top: 5px solid #f1c40f;
 	background: #000;
 	height: 575px;
 	text-align: center;
@@ -302,6 +303,7 @@ label{
 	width: 100%;
 	background: url("../img/capa-bio.jpg") no-repeat center;
 	background-size: cover;
+	border-bottom: 5px solid #000;
 	color: #fff;
 	background-size: cover;
 	margin-top: 100px;
@@ -443,6 +445,7 @@ Silver: #bdc3c7;
 	width: 100%;
 	background: url("../img/capa-galeria.jpg") no-repeat center;
 	background-size: cover;
+	border-bottom: 5px solid #000;
 	color: #fff;
 	margin-top: 100px;
 	height: 220px;
@@ -747,6 +750,7 @@ Silver: #bdc3c7;
 	width: 100%;
 	background: url("../img/capa-contato.jpg") no-repeat center;
 	background-size: cover;
+	border-bottom: 5px solid #000;
 	color: #fff;
 	background-size: cover;
 	margin-top: 100px;
