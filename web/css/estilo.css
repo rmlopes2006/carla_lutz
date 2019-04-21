@@ -884,7 +884,7 @@ Silver: #bdc3c7;
 	}
 
 	.bio h2{
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.bio p{
@@ -900,7 +900,7 @@ Silver: #bdc3c7;
 	}
 
 	.encontra-aqui h2{
-		font-size: 18px;
+		font-size: 20px;
 		margin-top: 40px;
 	}
 
@@ -929,7 +929,7 @@ Silver: #bdc3c7;
 	}
 
 	.bio-interna h2{
-		font-size: 18px;
+		font-size: 20px;
 		line-height: 35px;
 		margin: 40px 0;
 		text-align: center;
@@ -951,8 +951,12 @@ Silver: #bdc3c7;
 		margin-top: 40px;
 	}
 
+	.conheca-galeria{
+		padding-top: 15px;
+	}
+
 	.conheca-galeria h2{
-		font-size: 18px;
+		font-size: 20px;
 		line-height: 35px;
 		margin: 35px 0 40px 0;
 	}
@@ -964,7 +968,7 @@ Silver: #bdc3c7;
 	}
 
 	.visite h2{
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.visite p{
@@ -998,7 +1002,7 @@ Silver: #bdc3c7;
 
 
 	.moldura1 h2, .moldura2 h2, .moldura3 h2{
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.moldura1 p, .moldura2 p, .moldura3 p{
@@ -1006,8 +1010,48 @@ Silver: #bdc3c7;
 	}
 
 	.entre-contato h2{
-		font-size: 18px;
+		font-size: 20px;
 	}
+
+	/* desenho.html */
+	.apresentacao-galerias{
+		height: 390px;
+	}
+
+	.apresentacao-galerias h2{
+		font-size: 20px;
+	}
+
+	.apresentacao-galerias p{
+		padding-top: 16px;
+	}
+
+	.container-galeria {
+	  height: 300px;
+	  width: 300px;
+	}
+
+	.prev,
+	.next {
+	  margin-top: 0px;
+	}
+
+	.principal-galeria{
+		height: 400px;
+	}
+
+	.outras-galerias{
+		height: 460px;
+	}
+
+	.outras-galerias h2{
+		font-size: 20px;
+	}
+
+	.outras-galerias p{
+		font-size: 16px;
+	}
+
 
 }
 
