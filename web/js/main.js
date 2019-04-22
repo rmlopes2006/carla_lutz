@@ -50,8 +50,14 @@ Visibility.onVisible(function(){
 		$(".bio a").addClass("animated fadeInDown");
 	}, 1000);
 	setTimeout(function(){
-		$(".encontra-aqui img").addClass("animated fadeInDown");
-	}, 400);
+		$(".encontra-aqui .img1").addClass("animated fadeInLeft");
+	}, 800);
+	setTimeout(function(){
+		$(".encontra-aqui .img2").addClass("animated fadeInLeft");
+	}, 1200);
+	setTimeout(function(){
+		$(".encontra-aqui .img3").addClass("animated fadeInLeft");
+	}, 1600);
 	setTimeout(function(){
 		$(".encontra-aqui h2").addClass("animated fadeInDown");
 	}, 600);
