@@ -139,7 +139,6 @@ img{
 
 .menu ul li a.menu-ativo{
 	color: #9b59b6; /* Menu ativo para as páginas internas. */
-	font-style: italic;
 }
 
 label{
@@ -492,7 +491,7 @@ label{
 }
 
 .galeria-apresenta:hover{
-	background: #9b59b6;
+	background: #f1c40f;
 }
 
 .moldura1{
@@ -793,15 +792,18 @@ label{
 	}
 
 	.encontra-aqui .img1{
-		top:50px;
+		width: 65%;
+		top:25px;
 	}
 
 	.encontra-aqui .img2{
-		top:70px;
+		width: 65%;
+		top:5px;
 	}
 
 	.encontra-aqui .img3{
-		top:90px;
+		width: 65%;
+		top:-15px;
 	}
 
 	.bio{
