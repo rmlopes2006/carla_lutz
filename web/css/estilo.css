@@ -518,6 +518,7 @@ label{
 
 .galeria-apresenta{
 	background: #ecf0f1;
+	border-top: 5px solid #000;
 	height: 870px;
 	transition: background 1s ease;
 }
