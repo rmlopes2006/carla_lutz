@@ -78,8 +78,17 @@ Visibility.onVisible(function(){
 		$(".bio-interna p").addClass("animated fadeInDown");
 	}, 600);
 	setTimeout(function(){
-		$(".bio-interna img").addClass("animated fadeInDown");
-	}, 600);
+		$(".bio-interna .imgbio1").addClass("animated fadeInRight");
+	}, 1000);
+	setTimeout(function(){
+		$(".bio-interna .imgbio2").addClass("animated fadeInRight");
+	}, 1200);
+	setTimeout(function(){
+		$(".bio-interna .imgbio3").addClass("animated fadeInLeft");
+	}, 1000);
+	setTimeout(function(){
+		$(".bio-interna .imgbio4").addClass("animated fadeInLeft");
+	}, 1200);
 	setTimeout(function(){
 		$(".conheca-galeria h2").addClass("animated fadeInDown");
 	}, 400);

@@ -356,18 +356,50 @@ label{
 }
 
 .bio-interna img{
-	margin-top: 45px;
-	margin-right: auto;
-	margin-bottom: 40px;
-	margin-left: 40px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	transition: all 1.2s;
+}
+
+.bio-interna .imgbio1{
+	width: 80%;
+	position: relative;
+	top:20px;
+	left:20px; 
+}
+
+.bio-interna .imgbio2{
+	width: 80%;
+	position: relative;
+	top:-30px;
+	left:80px; 
+}
+
+.bio-interna .imgbio3{
+	width: 80%;
+	position: relative;
+	top:40px;
+	left:20px; 
+}
+
+.bio-interna .imgbio4{
+	width: 80%;
+	position: relative;
+	top:-15px;
+	right:20px; 
 }
 
 .bio-interna img:hover{
 	box-shadow: 3px 4px 4px rgba(0, 0, 0, .6);
 }
 
+.quebra{
+	background-color: #ecf0f1;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/* Esta quebra está incluida na index.html */
 .bio-quebra{
 	background: url("../img/quebra.jpg") no-repeat center;
 	background-size: cover;
@@ -825,6 +857,26 @@ label{
 		padding-left: 0;
 	}
 
+	.bio-interna .imgbio1{
+		top:-30px;
+		left:40px; 
+	}
+
+	.bio-interna .imgbio2{
+		top:-140px;
+		left:80px; 
+	}
+
+	.bio-interna .imgbio3{
+		top:-0px;
+		left:10px; 
+	}
+
+	.bio-interna .imgbio4{
+		top:-110px;
+		right:30px; 
+	}
+
 	/* galeria.html */
 	.visite h2{
 		padding-top: 30px;
@@ -1098,7 +1150,7 @@ label{
 	opacity: 0;
 }
 
-.js .encontra-aqui .img1, .js .encontra-aqui .img2, .js .encontra-aqui .img3{
+.js .encontra-aqui .img1, .js .encontra-aqui .img2, .js .encontra-aqui .img3, .js .bio-interna .imgbio1, .js .bio-interna .imgbio2, .js .bio-interna .imgbio3, .js .bio-interna .imgbio4{
 	opacity: 0;
 }
 /* Galeria */
@@ -1189,5 +1241,53 @@ label{
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInRightBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 
 /* Fim das animações */
