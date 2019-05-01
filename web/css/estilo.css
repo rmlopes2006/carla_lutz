@@ -10,6 +10,7 @@ https://flatuicolors.com/palette/defo
 Sun Flower: #f1c40f;
 Amethyst: #9b59b6;
 Clouds: #ecf0f1;
+Peter River: #3498db;
 */
 
 body{
@@ -212,7 +213,7 @@ label{
 
 /* Encontra aqui */
 .encontra-aqui{
-	border-top: 3px solid #f1c40f;
+	/*border-top: 3px solid #f1c40f;*/
 	background: #000;
 	height: 575px;
 	text-align: center;
@@ -395,10 +396,17 @@ label{
 
 .quebra{
 	background-color: #ecf0f1;
-	height: 40px;
+	height: 120px;
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 40px;
+}
+
+.quebra p{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 32px;
+	max-width: 460px;
 }
 
 /* Esta quebra está incluida na index.html */
@@ -518,13 +526,13 @@ label{
 
 .galeria-apresenta{
 	background: #ecf0f1;
-	border-top: 3px solid #000;
+	/*border-top: 3px solid #000;*/
 	height: 870px;
 	transition: background 1s ease;
 }
 
 .galeria-apresenta:hover{
-	background: #f1c40f;
+	background: #3498db;
 }
 
 .moldura1{
@@ -880,6 +888,10 @@ label{
 		right:30px; 
 	}
 
+	.quebra{
+		margin-top: -30px;
+	}
+
 	/* galeria.html */
 	.visite h2{
 		padding-top: 30px;
@@ -1046,6 +1058,10 @@ label{
 		font-size: 20px;
 		line-height: 35px;
 		margin: 35px 0 40px 0;
+	}
+
+	.quebra p{
+		padding-top: 22px;
 	}
 
 	/*galeria.html*/
