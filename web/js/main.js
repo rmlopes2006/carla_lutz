@@ -44,8 +44,8 @@ Visibility.onVisible(function(){
 		$(".bio p").addClass("animated fadeInDown");
 	}, 800);
 	setTimeout(function(){
-		$(".bio img").addClass("animated fadeInDown");
-	}, 800);
+		$(".bio img").addClass("animated fadeInRight");
+	}, 1200);
 	setTimeout(function(){
 		$(".bio a").addClass("animated fadeInDown");
 	}, 1000);
