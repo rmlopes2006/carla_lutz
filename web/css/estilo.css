@@ -9,8 +9,8 @@
 https://flatuicolors.com/palette/defo
 Sun Flower: #f1c40f;
 Amethyst: #9b59b6;
-Clouds: #ecf0f1;
-Peter River: #3498db;
+Silver: #bdc3c7;
+Emerald: #2ecc71;
 */
 
 body{
@@ -395,7 +395,7 @@ label{
 }
 
 .quebra{
-	background-color: #ecf0f1;
+	background-color: #bdc3c7;
 	height: 120px;
 	width: 100%;
 	margin-top: 10px;
@@ -525,14 +525,14 @@ label{
 }
 
 .galeria-apresenta{
-	background: #ecf0f1;
+	background: #bdc3c7;
 	/*border-top: 3px solid #000;*/
 	height: 870px;
 	transition: background 1s ease;
 }
 
 .galeria-apresenta:hover{
-	background: #3498db;
+	background: #2ecc71;
 }
 
 .moldura1{
