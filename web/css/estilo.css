@@ -363,30 +363,30 @@ label{
 }
 
 .bio-interna .imgbio1{
-	width: 80%;
+	width: 70%;
 	position: relative;
-	top:20px;
-	left:40px; 
+	top:30px;
+	left:40px;
 }
 
 .bio-interna .imgbio2{
-	width: 80%;
+	width: 70%;
 	position: relative;
-	top:-30px;
+	top:-20px;
 	left:90px; 
 }
 
 .bio-interna .imgbio3{
-	width: 80%;
+	width: 70%;
 	position: relative;
-	top:40px;
+	top:70px;
 	left:20px; 
 }
 
 .bio-interna .imgbio4{
-	width: 80%;
+	width: 70%;
 	position: relative;
-	top:-10px;
+	top:30px;
 	right:25px; 
 }
 
@@ -398,7 +398,7 @@ label{
 	background-color: #bdc3c7;
 	height: 120px;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 40px;
 }
 
@@ -889,7 +889,7 @@ label{
 	}
 
 	.quebra{
-		margin-top: -30px;
+		margin-top: -10px;
 	}
 
 	/* galeria.html */
