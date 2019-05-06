@@ -10,7 +10,7 @@ https://flatuicolors.com/palette/defo
 Sun Flower: #f1c40f;
 Amethyst: #9b59b6;
 Silver: #bdc3c7;
-Emerald: #2ecc71;
+Turquoise: #1abc9c;
 */
 
 body{
@@ -532,7 +532,7 @@ label{
 }
 
 .galeria-apresenta:hover{
-	background: #2ecc71;
+	background: #1abc9c;
 }
 
 .moldura1{
