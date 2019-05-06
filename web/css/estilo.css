@@ -380,14 +380,14 @@ label{
 	width: 70%;
 	position: relative;
 	top:70px;
-	left:20px; 
+	left:0px; 
 }
 
 .bio-interna .imgbio4{
 	width: 70%;
 	position: relative;
 	top:30px;
-	right:25px; 
+	left:60px; 
 }
 
 .bio-interna img:hover{
