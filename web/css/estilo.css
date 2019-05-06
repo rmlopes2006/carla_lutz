@@ -173,7 +173,6 @@ label{
 
 .intro h1{
 	font-family: 'Krub', sans-serif;
-	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .04em;
 	font-size: 28px;
@@ -401,6 +400,11 @@ label{
 	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 40px;
+
+	background: -webkit-linear-gradient(to right, #fff, #bdc3c7);
+	background: -moz-linear-gradient(to right, #fff, #bdc3c7);
+	background: -o-linear-gradient(to right, #fff, #bdc3c7);
+	background: linear-gradient(to right, #fff, #bdc3c7);
 }
 
 .quebra p{
