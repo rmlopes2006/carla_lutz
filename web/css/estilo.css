@@ -173,6 +173,7 @@ label{
 
 .intro h1{
 	font-family: 'Krub', sans-serif;
+	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .04em;
 	font-size: 28px;
