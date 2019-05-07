@@ -533,7 +533,8 @@ label{
 	background: #bdc3c7;
 	/*border-top: 3px solid #000;*/
 	height: 870px;
-	transition: background 1s ease;
+
+	transition: background 1.5s ease;
 }
 
 .galeria-apresenta:hover{
